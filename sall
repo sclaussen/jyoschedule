@@ -1,0 +1,8 @@
+#!/bin/sh
+node schedule g4 &
+node schedule g56 &
+node schedule g789 &
+node schedule b45 2 &
+node schedule b6 &
+node schedule b7 &
+node schedule b89 2 &

@@ -1,0 +1,792 @@
+# g4:j2 and b6:j1 need to play in the same gym
+# b45:a2 and b6:a1 need to play in the same gym
+teams:
+  - league: g4
+    name: c
+    fullname:
+    byeWeeks: []
+    homeGames: [ 3 ]
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: g4
+    name: t1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: [ 1, 2 ]
+    awayGameWeeks: []
+    notes: tricity double weeks 1 and 2
+    coaches:
+  - league: g4
+    name: t2
+    fullname:
+    byeWeeks: [ 1, 2 ]
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes: bye requested
+    coaches:
+  - league: g4
+    name: j1
+    fullname: black
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10
+    coaches: alvin lin, newton wong
+  - league: g4
+    name: j2
+    fullname: red
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, g4:j2 and b6:j1 need to play in the same gym
+    coaches: phil lee, joseph wong
+  - league: g4
+    name: y
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+
+
+
+  - league: g56
+    name: a1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: g56
+    name: a2
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: g56
+    name: c
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: g56
+    name: j1
+    fullname: black
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 7, 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, jeff jamboree home 7
+    coaches: eric yoshioka, jeff chan
+  - league: g56
+    name: j2
+    fullname: red
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10
+    coaches: beau hashiguchi, janet maldonado
+  - league: g56
+    name: t1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: [ 1, 2 ]
+    awayGameWeeks: []
+    notes: tricity double weeks 1 and 2
+    coaches:
+  - league: g56
+    name: t2
+    fullname:
+    byeWeeks:
+    homeGameWeeks: [ 1, 2 ]
+    awayGameWeeks: []
+    notes: tricity double weeks 1 and 2
+    coaches:
+  - league: g56
+    name: t3
+    fullname:
+    byeWeeks: [ 4 ]
+    homeGameWeeks: [ 1, 2 ]
+    awayGameWeeks: []
+    notes: tricity double weeks 1 and 2, bye week 4
+    coaches:
+  - league: g56
+    name: y
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+
+
+
+  - league: g789
+    name: a
+    fullname:
+    byeWeeks: [ 8, 10 ]
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes: bye weeks 8 and 10
+    coaches:
+  - league: g789
+    name: c
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: g789
+    name: j
+    fullname: black
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10
+    coaches: dan corkish, ernest lau
+  - league: g789
+    name: t1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: [ 1, 2 ]
+    awayGameWeeks: []
+    notes: tricity double weeks 1 and 2
+    coaches:
+  - league: g789
+    name: t2
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: [ 1, 2 ]
+    awayGameWeeks: []
+    notes: tricity double weeks 1 and 2
+    coaches:
+  - league: g789
+    name: y
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+
+
+
+  - league: b45
+    name: a1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b45
+    name: a2
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes: b45:a2 and b6:a1 need to play in the same gym
+    coaches:
+  - league: b45
+    name: a3
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b45
+    name: c1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b45
+    name: c2
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b45
+    name: c3
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b45
+    name: j1
+    fullname: black
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10
+    coaches: andy lo, kou vu, bill lo
+  - league: b45
+    name: j2
+    fullname: red
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10
+    coaches: chris chin
+  - league: b45
+    name: j3
+    fullname: green
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 7, 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, nick jamboree home 7
+    coaches: nick kwan, eric lee, mike nakanishi
+  - league: b45
+    name: j4
+    fullname: white
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 7, 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, eric jamboree home 7
+    coaches: eric lee, aaron lee, drew generalao
+  - league: b45
+    name: t1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: [ 1, 2 ]
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b45
+    name: t2
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: [ 1, 2 ]
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b45
+    name: y1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b45
+    name: y2
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+
+
+
+  - league: b6
+    name: a1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes: b45:a2 and b6:a1 need to play in the same gym
+    coaches:
+  - league: b6
+    name: a2
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: [ 6 ]
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b6
+    name: c
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: [ 1 ]
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b6
+    name: j1
+    fullname: black
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, g4:j2 and b6:j1 need to play in the same gym
+    coaches: mike kato, mike mori, paul leung
+  - league: b6
+    name: j2
+    fullname: red
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10
+    coaches: newton wong, glenn young
+  - league: b6
+    name: t1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: [ 1, 2 ]
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b6
+    name: t2
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: [ 1, 2 ]
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b6
+    name: y1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b6
+    name: y2
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+
+
+
+  - league: b7
+    name: a
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b7
+    name: c
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b7
+    name: j1
+    fullname: black
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 7, 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, shane/jeff jamboree home 7
+    coaches: shane claussen, billy lai, jeff yoshimura
+  - league: b7
+    name: j2
+    fullname: red
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 7, 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, craig jamboree home 7
+    coaches: gus maseba, emmon lew, craig tanabe
+  - league: b7
+    name: t
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: [ 1, 2 ]
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b7
+    name: y1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b7
+    name: y2
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+
+
+
+  - league: b89
+    name: a
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b89
+    name: c
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b89
+    name: j1
+    fullname: black
+    byeWeeks: [ 5, 9 ]
+    homeGameWeeks: [ 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10
+    coaches: andrew urushima, evan tanaka
+  - league: b89
+    name: j2
+    fullname: red
+    byeWeeks: [ 7, 5, 9 ]
+    homeGameWeeks: [ 8, 10 ]
+    awayGameWeeks: []
+    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, jeff jamboree week 7
+    coaches: eric wong, pat lui, jeff yoshimura
+  - league: b89
+    name: t1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: [ 1, 2 ]
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b89
+    name: t2
+    fullname:
+    byeWeeks: [ 1, 2 ]
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes: bye weeks 1 and 2
+    coaches:
+  - league: b89
+    name: y1
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+  - league: b89
+    name: y2
+    fullname:
+    byeWeeks: []
+    homeGameWeeks: []
+    awayGameWeeks: []
+    notes:
+    coaches:
+
+
+weeks:
+  - league: g4
+    week: 1
+    maxGamesAvailable: 2
+    gamesAvailable: 2
+  - league: g4
+    week: 2
+    maxGamesAvailable: 2
+    gamesAvailable: 2
+  - league: g4
+    week: 3
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g4
+    week: 4
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g4
+    week: 5
+    maxGamesAvailable: 2
+    gamesAvailable: 2
+  - league: g4
+    week: 6
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g4
+    week: 7
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g4
+    week: 8
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g4
+    week: 9
+    maxGamesAvailable: 2
+    gamesAvailable: 2
+  - league: g4
+    week: 10
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+
+
+  - league: g56
+    week: 1
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: g56
+    week: 2
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: g56
+    week: 3
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: g56
+    week: 4
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g56
+    week: 5
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g56
+    week: 6
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: g56
+    week: 7
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: g56
+    week: 8
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: g56
+    week: 9
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g56
+    week: 10
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+
+
+  - league: g789
+    week: 1
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g789
+    week: 2
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g789
+    week: 3
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g789
+    week: 4
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g789
+    week: 5
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g789
+    week: 6
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g789
+    week: 7
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g789
+    week: 8
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g789
+    week: 9
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: g789
+    week: 10
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+
+
+
+  - league: b45
+    week: 1
+    maxGamesAvailable: 7
+    gamesAvailable: 7
+  - league: b45
+    week: 2
+    maxGamesAvailable: 7
+    gamesAvailable: 7
+  - league: b45
+    week: 3
+    maxGamesAvailable: 7
+    gamesAvailable: 7
+  - league: b45
+    week: 4
+    maxGamesAvailable: 7
+    gamesAvailable: 7
+  - league: b45
+    week: 5
+    maxGamesAvailable: 5
+    gamesAvailable: 5
+  - league: b45
+    week: 6
+    maxGamesAvailable: 7
+    gamesAvailable: 7
+  - league: b45
+    week: 7
+    maxGamesAvailable: 7
+    gamesAvailable: 7
+  - league: b45
+    week: 8
+    maxGamesAvailable: 7
+    gamesAvailable: 7
+  - league: b45
+    week: 9
+    maxGamesAvailable: 5
+    gamesAvailable: 5
+  - league: b45
+    week: 10
+    maxGamesAvailable: 7
+    gamesAvailable: 7
+
+
+
+  - league: b6
+    week: 1
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b6
+    week: 2
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b6
+    week: 3
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b6
+    week: 4
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b6
+    week: 5
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: b6
+    week: 6
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b6
+    week: 7
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b6
+    week: 8
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b6
+    week: 9
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: b6
+    week: 10
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+
+
+
+  - league: b7
+    week: 1
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: b7
+    week: 2
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: b7
+    week: 3
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: b7
+    week: 4
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: b7
+    week: 5
+    maxGamesAvailable: 2
+    gamesAvailable: 2
+  - league: b7
+    week: 6
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: b7
+    week: 7
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: b7
+    week: 8
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: b7
+    week: 9
+    maxGamesAvailable: 2
+    gamesAvailable: 2
+  - league: b7
+    week: 10
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+
+
+
+  - league: b89
+    week: 1
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b89
+    week: 2
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b89
+    week: 3
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b89
+    week: 4
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b89
+    week: 5
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: b89
+    week: 6
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b89
+    week: 7
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b89
+    week: 8
+    maxGamesAvailable: 4
+    gamesAvailable: 4
+  - league: b89
+    week: 9
+    maxGamesAvailable: 3
+    gamesAvailable: 3
+  - league: b89
+    week: 10
+    maxGamesAvailable: 4
+    gamesAvailable: 4
