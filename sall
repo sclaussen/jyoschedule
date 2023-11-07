@@ -1,8 +1,0 @@
-#!/bin/sh
-node schedule g4 1000 1000 15 g4.yaml &
-node schedule g56 1000 1000 10 g56.yaml &
-node schedule g789 1000 1000 20 g789.yaml &
-node schedule b45 1000 1000 10 b45.yaml &
-node schedule b6 1000 1000 7 b6.yaml &
-node schedule b7 1000 1000 10 b7.yaml &
-node schedule b89 1000 1000 20 b89.yaml &

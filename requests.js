@@ -31,18 +31,22 @@ scheduleGames(process.argv);
 async function scheduleGames(args) {
     info = YAML.parse(fs.readFileSync('./info.yaml', 'utf8'));
     for (let team of info.teams) {
-        if (team.byeWeeks.length === 0 && team.homeGameWeeks.length === 0 && team.awayGameWeeks.length === 0) {
+        if (team.byeWeeks.length === 0 && team.fixedHomeGameWeeks.length === 0 && team.fixedAwayGameWeeks.length === 0 && team.noHomeGymWeeks.length === 0) {
             continue;
         }
+
         console.log(team.league + ':' + team.name);
         if (team.byeWeeks.length > 0) {
             console.log('\tByes: ' + team.byeWeeks);
         }
-        if (team.homeGameWeeks.length > 0) {
-            console.log('\tHome weeks: ' + team.homeGameWeeks);
+        if (team.fixedHomeGameWeeks.length > 0) {
+            console.log('\tFixed home weeks: ' + team.fixedHomeGameWeeks);
         }
-        if (team.awayGameWeeks.length > 0) {
-            console.log('\tAway weeks: ' + team.awayGameWeeks);
+        if (team.fixedAwayGameWeeks.length > 0) {
+            console.log('\tFixed away weeks: ' + team.fixedAwayGameWeeks);
+        }
+        if (team.noHomeGymWeeks.length > 0) {
+            console.log('\tNo home weeks: ' + team.noHomeGymWeeks);
         }
         console.log('\tNotes: ' + team.notes);
     }

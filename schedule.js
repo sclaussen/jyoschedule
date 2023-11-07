@@ -1,6 +1,7 @@
 'use strict'
 const d = require('debug')('schedule');
 
+const crypto = require('crypto');
 const fs = require('fs');
 const util = require('util');
 const _ = require('lodash');
@@ -26,10 +27,12 @@ var schedule = [];
 var outerLoop;
 var innerLoop;
 
-var tolerance = 30;
+var tolerance = 50;
 var scheduleScore = 0;
 var fullWeeks = [];
 var idealSchedules = [];
+var hashes = [];
+var duplicateScheduleCount = 0;
 var idealScheduleCount = 0;
 var validScheduleCount = 0;
 var possibleOpponentNames = {};
@@ -189,12 +192,19 @@ function generateSchedules(l) {
             if (!failure) {
                 validScheduleCount++;
                 if (scheduleScore <= tolerance) {
-                    idealScheduleCount++;
-                    idealSchedules.push({
-                        id: idealScheduleCount,
-                        score: scheduleScore,
-                        schedule: schedule
-                    });
+                    let hash = getHash(schedule);
+                    if (!_.includes(hashes, hash)) {
+                        idealScheduleCount++;
+                        hashes.push(hash);
+                        idealSchedules.push({
+                            id: idealScheduleCount,
+                            score: scheduleScore,
+                            hash: hash,
+                            schedule: schedule
+                        });
+                    } else {
+                        duplicateScheduleCount++;
+                    }
                 }
 
                 // printMatrix(league, schedule, teams);
@@ -210,20 +220,22 @@ function generateSchedules(l) {
         }
     }
 
+    console.log(league + ': 100% Ideal: ' + idealScheduleCount.toLocaleString() + ' ' + elapsedTime());
+    console.log(league + ': Duplicates: ' + duplicateScheduleCount);
     console.log(league + ': Good: ' + validScheduleCount);
     console.log(league + ': Ideal: ' + idealScheduleCount);
     if (outerLoop >= 1 && idealScheduleCount > 0) {
         const timestamp = moment().format('ddhhmmss');
-        let idealSchedules30 = _.take(_.sortBy(idealSchedules, [ 'score', 'week' ]), 30);
-        for (let i in idealSchedules30) {
-            let idealSchedule = idealSchedules30[i];
+        let idealSchedules50 = _.take(_.sortBy(idealSchedules, [ 'score', 'week' ]), 50);
+        for (let i in idealSchedules50) {
+            let idealSchedule = idealSchedules50[i];
             idealSchedule.id = parseInt(i) + 1;
         }
         if (!out) {
             out = league + '-' + timestamp + '.yaml';
         }
         console.log(league + ': Generated: ' + out);
-        fs.writeFileSync(out, YAML.stringify(idealSchedules30), 'utf8');
+        fs.writeFileSync(out, YAML.stringify(idealSchedules50), 'utf8');
     }
 }
 
@@ -652,4 +664,10 @@ function elapsedTime() {
     const duration = moment.duration(endDate.diff(startTime));
     const minutes = Math.floor(duration.asMinutes() * 10) / 10;
     return 'Elapsed: ' + minutes;
+}
+
+
+function getHash(jsonData) {
+    const jsonString = JSON.stringify(jsonData);
+    return crypto.createHash('sha256').update(jsonString).digest('hex');
 }

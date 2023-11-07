@@ -8,7 +8,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 4 ]
-    notes: No home gym on week 4
+    notes: nohome4
     coaches:
   - league: g4
     name: t1
@@ -17,7 +17,7 @@ teams:
     fixedHomeGameWeeks: [ 1, 2 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: tricity double weeks 1 and 2
+    notes: double1and2
     coaches:
   - league: g4
     name: t2
@@ -26,7 +26,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: bye requested
+    notes: bye1and2
     coaches:
   - league: g4
     name: j1
@@ -35,16 +35,16 @@ teams:
     fixedHomeGameWeeks: [ 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 7 ]
-    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed
+    notes: off5and9, double8and10, nohome7
     coaches: alvin lin, newton wong
   - league: g4
     name: j2
     fullname: red
     byeWeeks: [ 5, 9 ]
     fixedHomeGameWeeks: [ 1, 4, 8, 10 ]
-    fixedAwayGameWeeks: [  ]
+    fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 7 ]
-    notes: COR1 jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed, G4:J2 AND B6:J1 NEED TO PLAY IN THE SAME GYM
+    notes: cor-g4j2-b6j1, off5and9, double8and10, nohome7
     coaches: phil lee, joseph wong
   - league: g4
     name: y
@@ -65,7 +65,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 5, 8, 9 ]
-    notes: No home gym on weeks 5, 8, and 9
+    notes: nohome5and8and9
     coaches:
   - league: g56
     name: a2
@@ -74,7 +74,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 5, 8, 9 ]
-    notes: No home gym on weeks 5, 8, and 9
+    notes: nohome5and8and9
     coaches:
   - league: g56
     name: c
@@ -83,7 +83,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 4 ]
-    notes: No home gym on week 4
+    notes: nohome4
     coaches:
   - league: g56
     name: j1
@@ -92,7 +92,7 @@ teams:
     fixedHomeGameWeeks: [ 7, 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, jeff jamboree home 7
+    notes: off5and9, double8and10, jamboree7
     coaches: eric yoshioka, jeff chan
   - league: g56
     name: j2
@@ -101,7 +101,7 @@ teams:
     fixedHomeGameWeeks: [ 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 7 ]
-    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed
+    notes: off5and9, double8and10, nohome7
     coaches: beau hashiguchi, janet maldonado
   - league: g56
     name: t1
@@ -110,7 +110,7 @@ teams:
     fixedHomeGameWeeks: [ 1, 2 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: tricity double weeks 1 and 2
+    notes: double1and2
     coaches:
   - league: g56
     name: t2
@@ -119,7 +119,7 @@ teams:
     fixedHomeGameWeeks: [ 1, 2 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: tricity double weeks 1 and 2
+    notes: double1and2
     coaches:
   - league: g56
     name: t3
@@ -128,7 +128,7 @@ teams:
     fixedHomeGameWeeks: [ 1, 2 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [  ]
-    notes: tricity double weeks 1 and 2, bye week 4
+    notes: double1and2, bye4
     coaches:
   - league: g56
     name: y
@@ -149,7 +149,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 5, 8, 9 ]
-    notes: No home gym on weeks 5, 8, and 9, bye week 8 and 10
+    notes: nohome5and8and9, bye8and10
     coaches:
   - league: g789
     name: c
@@ -158,7 +158,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 4 ]
-    notes: No home gym on week 4
+    notes: nohome4
     coaches:
   - league: g789
     name: j
@@ -167,7 +167,7 @@ teams:
     fixedHomeGameWeeks: [ 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 7 ]
-    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed
+    notes: off5and9, double8and10, nohome7
     coaches: dan corkish, ernest lau
   - league: g789
     name: t1
@@ -176,7 +176,7 @@ teams:
     fixedHomeGameWeeks: [ 1, 2 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: tricity double weeks 1 and 2
+    notes: double1and2
     coaches:
   - league: g789
     name: t2
@@ -185,7 +185,7 @@ teams:
     fixedHomeGameWeeks: [ 1, 2 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: tricity double weeks 1 and 2
+    notes: double1and2
     coaches:
   - league: g789
     name: y
@@ -206,7 +206,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 5, 8, 9 ]
-    notes: No home gym on weeks 5, 8, and 9
+    notes: nohome5and8and9
     coaches:
   - league: b45
     name: a2
@@ -215,7 +215,7 @@ teams:
     fixedHomeGameWeeks: [ 2, 3, 6, 10]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 5, 8, 9 ]
-    notes: COR2 No home gym on weeks 5, 8, and 9, b45:a2 and b6:a1 need to play in the same gym
+    notes: cor-b45a2-b6a1, nohome5and8and9
     coaches:
   - league: b45
     name: a3
@@ -224,7 +224,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 5, 8, 9 ]
-    notes: No home gym on weeks 5, 8, and 9
+    notes: nohome5and8and9
     coaches:
   - league: b45
     name: c1
@@ -233,7 +233,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 4 ]
-    notes: No home gym on week 4
+    notes: nohome4
     coaches:
   - league: b45
     name: c2
@@ -242,7 +242,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 4 ]
-    notes: No home gym on week 4
+    notes: nohome4
     coaches:
   - league: b45
     name: c3
@@ -251,7 +251,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 4 ]
-    notes: No home gym on week 4
+    notes: nohome4
     coaches:
   - league: b45
     name: j1
@@ -260,7 +260,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 7, 8, 10 ]
-    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed
+    notes: off5and9, double8and10, nohome7
     coaches: andy lo, kou vu, bill lo
   - league: b45
     name: j2
@@ -269,7 +269,7 @@ teams:
     fixedHomeGameWeeks: [ 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 7 ]
-    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed
+    notes: off5and9, double8and10, nohome7
     coaches: chris chin
   - league: b45
     name: j3
@@ -278,7 +278,7 @@ teams:
     fixedHomeGameWeeks: [ 7, 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, nick jamboree home 7
+    notes: off5and9, double8and10, jamboree7
     coaches: nick kwan, eric lee, mike nakanishi
   - league: b45
     name: j4
@@ -287,7 +287,7 @@ teams:
     fixedHomeGameWeeks: [ 7, 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [  ]
-    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, eric jamboree home 7
+    notes: off5and9, double8and10, jamboree7
     coaches: eric lee, aaron lee, drew generalao
   - league: b45
     name: t1
@@ -296,7 +296,7 @@ teams:
     fixedHomeGameWeeks: [ 1, 2 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: tricity double weeks 1 and 2
+    notes: double1and2
     coaches:
   - league: b45
     name: t2
@@ -305,7 +305,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 1, 2 ]
-    notes: tricity double weeks 1 and 2
+    notes: nohome1and2
     coaches:
   - league: b45
     name: y1
@@ -335,7 +335,7 @@ teams:
     fixedHomeGameWeeks: [ 2, 3, 6, 10]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 5, 8, 9 ]
-    notes: COR2 No home gym on weeks 5, 8, and 9, b45:a2 and b6:a1 need to play in the same gym
+    notes: cor-b45a2-b6a1, nohome5and8and9
     coaches:
   - league: b6
     name: a2
@@ -344,7 +344,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 5, 8, 9 ]
-    notes: No home gym on weeks 5, 8, and 9
+    notes: nohome5and8and9
     coaches:
   - league: b6
     name: c
@@ -353,7 +353,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 4 ]
-    notes: No home gym on week 4
+    notes: nohome4
     coaches:
   - league: b6
     name: j1
@@ -362,7 +362,7 @@ teams:
     fixedHomeGameWeeks: [ 1, 4, 8, 10 ]
     fixedAwayGameWeeks: [ ]
     noHomeGymWeeks: [ 7 ]
-    notes: COR1 jyo off weeks 5 and 9, jyo double weeks 8 and 10, g4:j2 and b6:j1 need to play in the same gym, week 7 maxed
+    notes: cor-g4j2-b6j1 off5and9, double8and10, nohome7
     coaches: mike kato, mike mori, paul leung
   - league: b6
     name: j2
@@ -371,7 +371,7 @@ teams:
     fixedHomeGameWeeks: [ 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 7 ]
-    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed
+    notes: off5and9, double8and10, nohome7
     coaches: newton wong, glenn young
   - league: b6
     name: t1
@@ -380,7 +380,7 @@ teams:
     fixedHomeGameWeeks: [ 1, 2 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: tricity double weeks 1 and 2
+    notes: double1and2
     coaches:
   - league: b6
     name: t2
@@ -389,7 +389,7 @@ teams:
     fixedHomeGameWeeks: [ 1, 2 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: tricity double weeks 1 and 2
+    notes: double1and2
     coaches:
   - league: b6
     name: y1
@@ -419,7 +419,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 5, 8, 9 ]
-    notes: No home gym on weeks 5, 8, and 9
+    notes: nohome5and8and9
     coaches:
   - league: b7
     name: c
@@ -428,7 +428,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 4 ]
-    notes: No home gym on week 4
+    notes: nohome4
     coaches:
   - league: b7
     name: j1
@@ -437,7 +437,7 @@ teams:
     fixedHomeGameWeeks: [ 7, 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, shane/jeff jamboree home 7
+    notes: off5and9, double8and10, jamboree7
     coaches: shane claussen, billy lai, jeff yoshimura
   - league: b7
     name: j2
@@ -446,7 +446,7 @@ teams:
     fixedHomeGameWeeks: [ 7, 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, craig jamboree home 7
+    notes: off5and9, double8and10, jamboree7
     coaches: gus maseba, emmon lew, craig tanabe
   - league: b7
     name: t
@@ -455,7 +455,7 @@ teams:
     fixedHomeGameWeeks: [  ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 1, 2 ]
-    notes: tricity double weeks 1 and 2
+    notes: nohome1and2
     coaches:
   - league: b7
     name: y1
@@ -485,7 +485,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 5, 8, 9 ]
-    notes: No home gym on weeks 5, 8, and 9
+    notes: nohome5and8and9
     coaches:
   - league: b89
     name: c
@@ -494,7 +494,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 4 ]
-    notes: No home gym on week 4
+    notes: nohome4
     coaches:
   - league: b89
     name: j1
@@ -503,7 +503,7 @@ teams:
     fixedHomeGameWeeks: [ 7, 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [  ]
-    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10 EXPIRED need to play 8 and 10 AWAY, andrew jamboree week 7
+    notes: off5and9, double8and10, jamboree7
     coaches: andrew urushima, evan tanaka
   - league: b89
     name: j2
@@ -512,7 +512,7 @@ teams:
     fixedHomeGameWeeks: [ 7, 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, jeff jamboree week 7
+    notes: off5and9, double8and10, jamboree7
     coaches: eric wong, pat lui, jeff yoshimura
   - league: b89
     name: t1
@@ -521,7 +521,7 @@ teams:
     fixedHomeGameWeeks: [ 1, 2 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [  ]
-    notes: tricity double weeks 1 and 2
+    notes: double1and2
     coaches:
   - league: b89
     name: t2
@@ -530,7 +530,7 @@ teams:
     fixedHomeGameWeeks: []
     fixedAwayGameWeeks: []
     noHomeGymWeeks: []
-    notes: bye weeks 1 and 2
+    notes: bye1and2
     coaches:
   - league: b89
     name: y1

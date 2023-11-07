@@ -1,161 +1,170 @@
 g4:c
-	Away weeks: 4
-	Notes: No home gym on week 4
+        No home weeks: 4
+        Notes: nohome4
 g4:t1
-	Home weeks: 1,2
-	Notes: tricity double weeks 1 and 2
+        Fixed home weeks: 1,2
+        Notes: double1and2
 g4:t2
-	Byes: 1,2
-	Notes: bye requested
+        Byes: 1,2
+        Notes: bye1and2
 g4:j1
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed
+        Byes: 5,9
+        Fixed home weeks: 8,10
+        No home weeks: 7
+        Notes: off5and9, double8and10, nohome7
 g4:j2
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed, G4:J2 AND B6:J1 NEED TO PLAY IN THE SAME GYM
+        Byes: 5,9
+        Fixed home weeks: 1,4,8,10
+        No home weeks: 7
+        Notes: cor-g4j2-b6j1, off5and9, double8and10, nohome7
 g56:a1
-	Away weeks: 5,8,9
-	Notes: No home gym on weeks 5, 8, and 9
+        No home weeks: 5,8,9
+        Notes: nohome5and8and9
 g56:a2
-	Away weeks: 5,8,9
-	Notes: No home gym on weeks 5, 8, and 9
+        No home weeks: 5,8,9
+        Notes: nohome5and8and9
 g56:c
-	Away weeks: 4
-	Notes: No home gym on week 4
+        No home weeks: 4
+        Notes: nohome4
 g56:j1
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, jeff jamboree home 7
+        Byes: 5,9
+        Fixed home weeks: 7,8,10
+        Notes: off5and9, double8and10, jamboree7
 g56:j2
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed
+        Byes: 5,9
+        Fixed home weeks: 8,10
+        No home weeks: 7
+        Notes: off5and9, double8and10, nohome7
 g56:t1
-	Home weeks: 1,2
-	Notes: tricity double weeks 1 and 2
+        Fixed home weeks: 1,2
+        Notes: double1and2
 g56:t2
-	Home weeks: 1,2
-	Notes: tricity double weeks 1 and 2
+        Fixed home weeks: 1,2
+        Notes: double1and2
 g56:t3
-	Byes: 4
-	Home weeks: 1,2
-	Notes: tricity double weeks 1 and 2, bye week 4
+        Byes: 4
+        Fixed home weeks: 1,2
+        Notes: double1and2, bye4
 g789:a
-	Byes: 8,10
-	Away weeks: 5,8,9
-	Notes: No home gym on weeks 5, 8, and 9, bye week 8 and 10
+        Byes: 8,10
+        No home weeks: 5,8,9
+        Notes: nohome5and8and9, bye8and10
 g789:c
-	Away weeks: 4
-	Notes: No home gym on week 4
+        No home weeks: 4
+        Notes: nohome4
 g789:j
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed
+        Byes: 5,9
+        Fixed home weeks: 8,10
+        No home weeks: 7
+        Notes: off5and9, double8and10, nohome7
 g789:t1
-	Home weeks: 1,2
-	Notes: tricity double weeks 1 and 2
+        Fixed home weeks: 1,2
+        Notes: double1and2
 g789:t2
-	Home weeks: 1,2
-	Notes: tricity double weeks 1 and 2
+        Fixed home weeks: 1,2
+        Notes: double1and2
 b45:a1
-	Away weeks: 5,8,9
-	Notes: No home gym on weeks 5, 8, and 9
+        No home weeks: 5,8,9
+        Notes: nohome5and8and9
 b45:a2
-	Away weeks: 5,8,9
-	Notes: No home gym on weeks 5, 8, and 9, b45:a2 and b6:a1 need to play in the same gym
+        Fixed home weeks: 2,3,6,10
+        No home weeks: 5,8,9
+        Notes: cor-b45a2-b6a1, nohome5and8and9
 b45:a3
-	Away weeks: 5,8,9
-	Notes: No home gym on weeks 5, 8, and 9
+        No home weeks: 5,8,9
+        Notes: nohome5and8and9
 b45:c1
-	Away weeks: 4
-	Notes: No home gym on week 4
+        No home weeks: 4
+        Notes: nohome4
 b45:c2
-	Away weeks: 4
-	Notes: No home gym on week 4
+        No home weeks: 4
+        Notes: nohome4
 b45:c3
-	Away weeks: 4
-	Notes: No home gym on week 4
+        No home weeks: 4
+        Notes: nohome4
 b45:j1
-	Byes: 5,9
-	Away weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed
+        Byes: 5,9
+        No home weeks: 7,8,10
+        Notes: off5and9, double8and10, nohome7
 b45:j2
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed
+        Byes: 5,9
+        Fixed home weeks: 8,10
+        No home weeks: 7
+        Notes: off5and9, double8and10, nohome7
 b45:j3
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, nick jamboree home 7
+        Byes: 5,9
+        Fixed home weeks: 7,8,10
+        Notes: off5and9, double8and10, jamboree7
 b45:j4
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, eric jamboree home 7
+        Byes: 5,9
+        Fixed home weeks: 7,8,10
+        Notes: off5and9, double8and10, jamboree7
 b45:t1
-	Home weeks: 1,2
-	Notes: tricity double weeks 1 and 2
+        Fixed home weeks: 1,2
+        Notes: double1and2
 b45:t2
-	Away weeks: 1,2
-	Notes: tricity double weeks 1 and 2
+        No home weeks: 1,2
+        Notes: double1and2
 b6:a1
-	Away weeks: 5,8,9
-	Notes: No home gym on weeks 5, 8, and 9, b45:a2 and b6:a1 need to play in the same gym
+        Fixed home weeks: 2,3,6,10
+        No home weeks: 5,8,9
+        Notes: cor-b45a2-b6a1, nohome5and8and9
 b6:a2
-	Away weeks: 5,8,9
-	Notes: No home gym on weeks 5, 8, and 9
+        No home weeks: 5,8,9
+        Notes: nohome5and8and9
 b6:c
-	Away weeks: 4
-	Notes: No home gym on week 4
+        No home weeks: 4
+        Notes: nohome4
 b6:j1
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, g4:j2 and b6:j1 need to play in the same gym, week 7 maxed
+        Byes: 5,9
+        Fixed home weeks: 1,4,8,10
+        No home weeks: 7
+        Notes: cor-g4j2-b6j1 off5and9, double8and10, nohome7
 b6:j2
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, week 7 maxed
+        Byes: 5,9
+        Fixed home weeks: 8,10
+        No home weeks: 7
+        Notes: off5and9, double8and10, nohome7
 b6:t1
-	Home weeks: 1,2
-	Notes: tricity double weeks 1 and 2
+        Fixed home weeks: 1,2
+        Notes: double1and2
 b6:t2
-	Home weeks: 1,2
-	Notes: tricity double weeks 1 and 2
+        Fixed home weeks: 1,2
+        Notes: double1and2
 b7:a
-	Away weeks: 5,8,9
-	Notes: No home gym on weeks 5, 8, and 9
+        No home weeks: 5,8,9
+        Notes: nohome5and8and9
 b7:c
-	Away weeks: 4
-	Notes: No home gym on week 4
+        No home weeks: 4
+        Notes: nohome4
 b7:j1
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, shane/jeff jamboree home 7
+        Byes: 5,9
+        Fixed home weeks: 7,8,10
+        Notes: off5and9, double8and10, jamboree7
 b7:j2
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, craig jamboree home 7
+        Byes: 5,9
+        Fixed home weeks: 7,8,10
+        Notes: off5and9, double8and10, jamboree7
 b7:t
-	Away weeks: 1,2
-	Notes: tricity double weeks 1 and 2
+        No home weeks: 1,2
+        Notes: double1and2
 b89:a
-	Away weeks: 5,8,9
-	Notes: No home gym on weeks 5, 8, and 9
+        No home weeks: 5,8,9
+        Notes: nohome5and8and9
 b89:c
-	Away weeks: 4
-	Notes: No home gym on week 4
+        No home weeks: 4
+        Notes: nohome4
 b89:j1
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10 EXPIRED need to play 8 and 10 AWAY, andrew jamboree week 7
+        Byes: 5,9
+        Fixed home weeks: 7,8,10
+        Notes: off5and9, double8and10, jamboree7
 b89:j2
-	Byes: 5,9
-	Home weeks: 8,10
-	Notes: jyo off weeks 5 and 9, jyo double weeks 8 and 10, jeff jamboree week 7
+        Byes: 5,9
+        Fixed home weeks: 7,8,10
+        Notes: off5and9, double8and10, jamboree7
 b89:t1
-	Home weeks: 1,2
-	Notes: tricity double weeks 1 and 2
+        Fixed home weeks: 1,2
+        Notes: double1and2
 b89:t2
-	Byes: 1,2
-	Notes: bye weeks 1 and 2
+        Byes: 1,2
+        Notes: bye1and2
