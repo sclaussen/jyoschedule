@@ -1,0 +1,2970 @@
+- id: 1
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 8
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 4
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 2
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 10
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 1
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: t2
+- id: 2
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 4
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 2
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 10
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 9
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 1
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j1
+- id: 3
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 4
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 2
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 10
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 9
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 1
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: t1
+- id: 4
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 4
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 2
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 10
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 1
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j1
+- id: 5
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 4
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 2
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 10
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 9
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 1
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: t2
+- id: 6
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 8
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 4
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 2
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 10
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 1
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: t1
+- id: 7
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 8
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 4
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 2
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 10
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 1
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: t1
+- id: 8
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 6
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 2
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 6
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 5
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 1
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 10
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 9
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: j2
+- id: 9
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 2
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 6
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 5
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 1
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 10
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 9
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: t1
+- id: 10
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 6
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 2
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 6
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 5
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 1
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 10
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 9
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: t1
+- id: 11
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 6
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 2
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 6
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 5
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 1
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 10
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 9
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: j1
+- id: 12
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 2
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 9
+      homeTeam: c
+      awayTeam: t1
+- id: 13
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 9
+      homeTeam: c
+      awayTeam: t2
+- id: 14
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 9
+      homeTeam: c
+      awayTeam: t1
+- id: 15
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 6
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 10
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 9
+      homeTeam: c
+      awayTeam: t2
+- id: 16
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 9
+      homeTeam: c
+      awayTeam: t1
+- id: 17
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 5
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 9
+      homeTeam: c
+      awayTeam: t2
+- id: 18
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: y
+- id: 19
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 9
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: t1
+- id: 20
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 9
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 3
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: t1
+- id: 21
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 9
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+- id: 22
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 9
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 3
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+- id: 23
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 9
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+- id: 24
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 2
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: t1
+- id: 25
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 9
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: t1
+- id: 26
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 2
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: t1
+- id: 27
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 9
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 3
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+- id: 28
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 9
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 2
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: c
+- id: 29
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 9
+      homeTeam: t1
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 3
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 1
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j2
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 9
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 4
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 7
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: t1
+    - league: g4
+      week: 6
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 2
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j2
+      awayTeam: t1
+- id: 30
+  score: 11
+  schedule:
+    - league: g4
+      week: 1
+      homeTeam: t1
+      awayTeam: y
+    - league: g4
+      week: 2
+      homeTeam: t1
+      awayTeam: j2
+    - league: g4
+      week: 8
+      homeTeam: j1
+      awayTeam: c
+    - league: g4
+      week: 10
+      homeTeam: j1
+      awayTeam: t2
+    - league: g4
+      week: 8
+      homeTeam: j2
+      awayTeam: t2
+    - league: g4
+      week: 10
+      homeTeam: j2
+      awayTeam: t1
+    - league: g4
+      week: 2
+      homeTeam: c
+      awayTeam: j1
+    - league: g4
+      week: 7
+      homeTeam: c
+      awayTeam: t2
+    - league: g4
+      week: 5
+      homeTeam: c
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: c
+      awayTeam: j2
+    - league: g4
+      week: 6
+      homeTeam: j2
+      awayTeam: c
+    - league: g4
+      week: 1
+      homeTeam: j2
+      awayTeam: y
+    - league: g4
+      week: 4
+      homeTeam: j1
+      awayTeam: t1
+    - league: g4
+      week: 3
+      homeTeam: j1
+      awayTeam: y
+    - league: g4
+      week: 3
+      homeTeam: t2
+      awayTeam: j2
+    - league: g4
+      week: 5
+      homeTeam: t2
+      awayTeam: y
+    - league: g4
+      week: 6
+      homeTeam: t2
+      awayTeam: j1
+    - league: g4
+      week: 9
+      homeTeam: t2
+      awayTeam: c
+    - league: g4
+      week: 4
+      homeTeam: y
+      awayTeam: c
+    - league: g4
+      week: 8
+      homeTeam: y
+      awayTeam: t1
+    - league: g4
+      week: 10
+      homeTeam: y
+      awayTeam: t2
+    - league: g4
+      week: 6
+      homeTeam: y
+      awayTeam: j1
+    - league: g4
+      week: 7
+      homeTeam: t1
+      awayTeam: j1
+    - league: g4
+      week: 9
+      homeTeam: t1
+      awayTeam: c

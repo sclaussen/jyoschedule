@@ -36,14 +36,14 @@ async function scheduleGames(args) {
         }
         console.log(team.league + ':' + team.name);
         if (team.byeWeeks.length > 0) {
-            console.log('    Byes: ' + team.byeWeeks);
+            console.log('\tByes: ' + team.byeWeeks);
         }
         if (team.homeGameWeeks.length > 0) {
-            console.log('    Home weeks: ' + team.homeGameWeeks);
+            console.log('\tHome weeks: ' + team.homeGameWeeks);
         }
         if (team.awayGameWeeks.length > 0) {
-            console.log('    Away weeks: ' + team.awayGameWeeks);
+            console.log('\tAway weeks: ' + team.awayGameWeeks);
         }
-        console.log('    Notes: ' + team.notes);
+        console.log('\tNotes: ' + team.notes);
     }
 }

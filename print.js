@@ -1,6 +1,8 @@
 'use strict'
-process.env.DEBUG='print'
+//process.env.DEBUG = 'print,always';
+process.env.DEBUG = 'always';
 const d = require('debug')('print');
+const d2 = require('debug')('always');
 
 const fs = require('fs');
 const util = require('util');
@@ -11,12 +13,13 @@ const YAML = require('yaml');
 const p = require('./lib/pr').p(d);
 const e = require('./lib/pr').e(d);
 const p4 = require('./lib/pr').p4(d);
+const p4always = require('./lib/pr').p4(d2);
 const y = require('./lib/pr').y(d);
 const y4 = require('./lib/pr').y4(d);
 const exit = require('./lib/exit');
 
 
-var org = {
+var orgs = {
     a: 'Associates',
     c: 'CYS',
     j: 'JYO',
@@ -26,34 +29,58 @@ var org = {
 
 
 var ids = {
-    g4: 1,
-    g56: 1,
+    g4: 2,
+    g56: 4,
     g789: 1,
     b45: 1,
-    b6: 1,
-    b7: 1,
-    b89: 1,
+    b6: 4,
+    b7: 4,
+    b89: 1
 };
+
+var failures {};
+
+
+var maxgyms;
 
 
 print(process.argv);
 
 
 async function print(args) {
-    // let leagues = [ 'g4', 'g56', 'g789', 'b6', 'b7', 'b89' ];
-    let leagues = [ 'g4', 'g56', 'g789', 'b45', 'b6', 'b7', 'b89' ];
+    // let info = YAML.parse(fs.readFileSync('./info.yaml', 'utf8'));
+    // maxgyms = info.maxgyms;
+
+    let leagues = [ 'g4', 'g56', 'g789', 'b6', 'b7', 'b89' ];
+    // let leagues = [ 'g4', 'g56', 'g789', 'b45', 'b6', 'b7', 'b89' ];
+
+    // Read all N generated scheduled for each of the leagues
     let schedules = {};
     for (let league of leagues) {
         schedules[league] = YAML.parse(fs.readFileSync(league + '.yaml', 'utf8'));
     }
+}
 
-    for (let league of leagues) {
-        let schedule = _.filter(schedules[league], { id: ids[league] });
-        printNormalized(league, schedule);
-        console.log();
-        console.log();
-        console.log();
-        console.log();
+
+function printMaxGyms() {
+    process.stdout.write(''.padEnd(10));
+    for (let org of _.keys(orgs)) {
+        process.stdout.write(org.padEnd(10));
+    }
+    console.log();
+    process.stdout.write(''.padEnd(10));
+    for (let org of [ 'm/a', 'm/a', 'm/a', 'm/a', 'm/a' ]) {
+        process.stdout.write(org.padEnd(10));
+    }
+    console.log();
+
+    for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
+        process.stdout.write(''.padEnd(10));
+        for (let org of _.keys(orgs)) {
+            let gym = _.find(maxgyms, { week: week, name: org });
+            let s = gym.maximum.toString() + '/' + gym.available.toString();
+            process.stdout.write(s.padEnd(10));
+        }
         console.log();
     }
 }
@@ -63,7 +90,7 @@ function printNormalized(league, schedule) {
     for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
         let games = _.filter(schedule, { league: league, week: week });
         for (let game of games) {
-            console.log(league.padEnd(10) + '\t' + week.toString().padEnd(4) + '\t' + game.homeTeam.padEnd(4) + '\t' + (game.awayTeam || '').padEnd(4) + '\t' + game.homeTeam[0]);
+            console.log(league.padEnd(10) + '\t' + week.toString().padEnd(4) + '\t' + game.homeTeam.padEnd(4) + '\t' + (game.awayTeam || '').padEnd(4) + '\t' + game.gym);
         }
     }
 }
@@ -139,4 +166,19 @@ function printStats() {
         }
         console.log();
     }
+}
+
+
+
+function validSchedule(schedule, league, teams) {
+    let teamNames = _.map(teams, 'name');
+    for (let homeTeam of teamNames) {
+        for (let awayTeam of teamNames) {
+            let dups = _.filter(schedule, { league: league, homeTeam: homeTeam, awayTeam: awayTeam }).length;
+            if (dups > maxDups) {
+                return false;
+            }
+        }
+    }
+    return true;
 }
