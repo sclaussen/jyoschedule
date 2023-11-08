@@ -13,7 +13,10 @@ const e = require('./lib/pr').e(d);
 const p4 = require('./lib/pr').p4(d);
 const y = require('./lib/pr').y(d);
 const y4 = require('./lib/pr').y4(d);
-const weekToDate = require('./lib/weekToDate');
+const weekToDate = require('./lib/util').weekToDate;
+const orgFull = require('./lib/util').orgFull;
+const teamFull = require('./lib/util').teamFull;
+const leagueFull = require('./lib/util').leagueFull;
 const exit = require('./lib/exit');
 
 
@@ -27,41 +30,26 @@ async function printByLocation(args) {
     let leagues = _.uniq(_.map(info.teams, 'league'));
 
     let master = YAML.parse(fs.readFileSync(input, 'utf8'));
-    generateLocation(master);
+    generateLocation(master, leagues, info.teams);
 }
 
 
-function generateLocation(master) {
+function generateLocation(master, leagues, teams) {
 
-    // // Header line 1
-    // process.stdout.write(''.padEnd(30) + '\t');
-    // for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
-    //     process.stdout.write(left('Week ' + week.toString(), 30) + '\t');
-    // }
-    // console.log();
-
-    // // Header line 2
-    // process.stdout.write(''.padEnd(30) + '\t');
-    // for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
-    //     process.stdout.write(left(weekToDate(week).toString(), 30) + '\t');
-    // }
-    // console.log();
-
-
+    console.log('Week'.padEnd(7) + '\tDate'.padEnd(8) + '\tLocation'.padEnd(30) + '\tTime'.padEnd(8) + '\tLeague'.padEnd(2) + '\tAway Team'.padEnd(8) + '\tHome Team'.padEnd(8));
     for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
         for (let gym of _.uniq(_.map(_.filter(master, { week: week }), 'gym'))) {
             let games = _.filter(master, { week: week, gym: gym });
             for (let game of games) {
-                process.stdout.write(game.week.toString().padEnd(4) + '\t');
+                let homeTeam = _.find(teams, { name: game.homeTeam });
+                let awayTeam = _.find(teams, { name: game.awayTeam });
+                process.stdout.write('Week ' + game.week.toString().padEnd(7) + '\t');
                 process.stdout.write(weekToDate(week).padEnd(8) + '\t');
-                process.stdout.write(game.league.padEnd(10) + '\t');
-                process.stdout.write(game.awayTeam.padEnd(4) + '\t');
-                process.stdout.write(game.homeTeam.padEnd(4) + '\t');
-                if ('location' in game) {
-                    process.stdout.write(game.location.time.padEnd(5) + '\t' );
-                    process.stdout.write(('=hyperlink("' + game.location.map + '", "' + game.location.name + '")').padEnd(30) + '\t');
-                    // process.stdout.write('\t' + game.location.time.padEnd(5) + '\t' + game.location.name.padEnd(25) + '\t' + game.location.address.padEnd(50) + '\t' + game.location.map.padEnd(20));
-                }
+                process.stdout.write(('=hyperlink("' + game.location.map + '", "' + game.location.name + '")').padEnd(30) + '\t');
+                process.stdout.write(game.location.time.padEnd(7) + '\t' );
+                process.stdout.write(leagueFull(game.league).padEnd(20) + '\t');
+                process.stdout.write(teamFull(awayTeam, game.awayTeam).padEnd(8) + '\t');
+                process.stdout.write('@' + teamFull(homeTeam, game.homeTeam).padEnd(8) + '\t');
                 console.log();
             }
         }
