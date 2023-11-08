@@ -140,6 +140,7 @@ function center(s, width, ch = ' ') {
     return ch.repeat(left) + s + ch.repeat(right);
 }
 
+
 function left(s, width, ch = ' ') {
     return s.padEnd(width);
 }

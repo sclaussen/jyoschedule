@@ -16,6 +16,9 @@ const y4 = require('./lib/pr').y4(d);
 const exit = require('./lib/exit');
 
 
+var yaoWeeksWithIncreasedCapacity = [];
+
+
 combos(process.argv);
 
 
@@ -25,7 +28,7 @@ async function combos(args) {
     let comboBase = parseInt(args[2]);
     let comboMax = parseInt(args[3]);
     let threshold = parseInt(args[4]);
-    let out = args[5] || 'combos.yaml';
+    let out = args[5] || 'combos.out';
 
     // Read the info metadata
     let info = YAML.parse(fs.readFileSync('./info.yaml', 'utf8'));
@@ -40,27 +43,48 @@ async function combos(args) {
     // Analyze each combination to see if it fits in the gym capacity
     let combinations = [];
     for (let combination of generateCombinations(comboBase, comboMax)) {
+        yaoWeeksWithIncreasedCapacity = [];
         let violations = analyzeCombination(leagues, schedules, info.gymCapacity, combination);
         if (violations <= threshold) {
-            let combo = {
-                'g4': combination[0],
-                'g56': combination[1],
-                'g789': combination[2],
-                'b45': combination[3],
-                'b6': combination[4],
-                'b7': combination[5],
-                'b89': combination[6],
-                violations: violations
-            };
-
-            console.log('Combination: ' + JSON.stringify(combo) + '  Violations: ' + violations);
-            fs.appendFileSync(out, YAML.stringify(combo), 'utf8');
+            let s = '';
+            s += violations + ' ';
+            s += combination[0] + ' '; // g4
+            s += combination[1] + ' '; // g56
+            s += combination[2] + ' '; // g789
+            s += combination[3] + ' '; // b45
+            s += combination[4] + ' '; // b6
+            s += combination[5] + ' '; // b7
+            s += combination[6] + '\n'; // b89
+            if (violations < 2) {
+                console.log(s);
+            }
+            fs.appendFileSync(out, s, 'utf8');
         }
 
         for (let gym of info.gymCapacity) {
             gym.available = gym.maximum;
         }
     }
+}
+
+
+function adjustYaoGymCapacity(gymCapacity, week) {
+    // If 4 weeks have already been adjusted, no change
+    if (yaoWeeksWithIncreasedCapacity.length === 4) {
+        // p('Capacity already maxed for week', week);
+        return;
+    }
+
+    // If this week was already adjusted to 5, no change
+    if (_.includes(yaoWeeksWithIncreasedCapacity, week)) {
+        // p('Capacity already adjusted for week', week);
+        return;
+    }
+
+    // p('Adjusting capacity for week', week);
+    let gym = _.find(gymCapacity, { week: week, gym: 'y' });
+    gym.available++;
+    yaoWeeksWithIncreasedCapacity.push(week);
 }
 
 
@@ -97,6 +121,9 @@ function analyzeCombination(leagues, schedules, gymCapacity, combination) {
         for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
             for (let game of _.filter(schedule, { week: week })) {
                 game.gym = game.homeTeam[0];
+                if (game.gym === 'y') {
+                    adjustYaoGymCapacity(gymCapacity, week);
+                }
                 let gym = _.find(gymCapacity, { week: week, gym: game.gym });
                 if (gym.available <= 0) {
                     violations++

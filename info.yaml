@@ -1019,44 +1019,44 @@ gymCapacity:
 
   - gym: y
     week: 1
-    maximum: 5
-    available: 5
+    maximum: 4
+    available: 4
   - gym: y
     week: 2
-    maximum: 5
-    available: 5
+    maximum: 4
+    available: 4
   - gym: y
     week: 3
-    maximum: 5
-    available: 5
+    maximum: 4
+    available: 4
   - gym: y
     week: 4
-    maximum: 5
-    available: 5
+    maximum: 4
+    available: 4
   - gym: y
     week: 5
-    maximum: 5
-    available: 5
+    maximum: 4
+    available: 4
   - gym: y
     week: 6
-    maximum: 5
-    available: 5
+    maximum: 4
+    available: 4
   - gym: y
     week: 7
-    maximum: 5
-    available: 5
+    maximum: 4
+    available: 4
   - gym: y
     week: 8
-    maximum: 5
-    available: 5
+    maximum: 4
+    available: 4
   - gym: y
     week: 9
-    maximum: 5
-    available: 5
+    maximum: 4
+    available: 4
   - gym: y
     week: 10
-    maximum: 5
-    available: 5
+    maximum: 4
+    available: 4
 
 
 

@@ -1,8 +1,7 @@
 'use strict'
-//process.env.DEBUG = 'print,always';
-process.env.DEBUG = 'always';
-const d = require('debug')('print');
-const d2 = require('debug')('always');
+process.env.DEBUG = 'schedule';
+process.env.DEBUG = 'schedule';
+const d = require('debug')('schedule');
 
 const fs = require('fs');
 const util = require('util');
@@ -13,7 +12,6 @@ const YAML = require('yaml');
 const p = require('./lib/pr').p(d);
 const e = require('./lib/pr').e(d);
 const p4 = require('./lib/pr').p4(d);
-const p4always = require('./lib/pr').p4(d2);
 const y = require('./lib/pr').y(d);
 const y4 = require('./lib/pr').y4(d);
 const exit = require('./lib/exit');
@@ -48,12 +46,12 @@ async function pick(args) {
         },
     };
 
+
     let out = args[9];
 
 
     let info = YAML.parse(fs.readFileSync('./info.yaml', 'utf8'));
     let leagues = _.uniq(_.map(info.teams, 'league'));
-    let gymSlots = info.gymSlots;
 
 
     // Read all N generated scheduled for each of the leagues
@@ -61,9 +59,8 @@ async function pick(args) {
     let schedules = {};
     for (let league of leagues) {
         schedules[league] = YAML.parse(fs.readFileSync(league + '.yaml', 'utf8'));
-        leagueData[league].schedule = _.filter(schedules[league], { id: leagueData[league].id });
+        leagueData[league].schedule = _.find(schedules[league], { id: leagueData[league].id }).schedule;
         leagueData[league].schedule = _.map(leagueData[league].schedule, o => _.assign({}, o, { order: getOrder(o.league) }));
-
         master = master.concat(leagueData[league].schedule);
     }
 

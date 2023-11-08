@@ -33,20 +33,19 @@ async function printByLocation(args) {
 
 function generateLocation(master) {
 
-    // Header line 1
-    process.stdout.write(''.padEnd(30) + '\t');
-    for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
-        process.stdout.write(left('Week ' + week.toString(), 30) + '\t');
-    }
-    console.log();
+    // // Header line 1
+    // process.stdout.write(''.padEnd(30) + '\t');
+    // for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
+    //     process.stdout.write(left('Week ' + week.toString(), 30) + '\t');
+    // }
+    // console.log();
 
-    // Header line 2
-    process.stdout.write(''.padEnd(30) + '\t');
-    for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
-        process.stdout.write(left(weekToDate(week).toString(), 30) + '\t');
-    }
-    console.log();
-
+    // // Header line 2
+    // process.stdout.write(''.padEnd(30) + '\t');
+    // for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
+    //     process.stdout.write(left(weekToDate(week).toString(), 30) + '\t');
+    // }
+    // console.log();
 
 
     for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
@@ -62,4 +61,16 @@ function generateLocation(master) {
             }
         }
     }
+}
+
+
+function center(s, width, ch = ' ') {
+    const left = Math.floor((width - s.length) / 2);
+    const right = width - s.length - left;
+    return ch.repeat(left) + s + ch.repeat(right);
+}
+
+
+function left(s, width, ch = ' ') {
+    return s.padEnd(width);
 }
