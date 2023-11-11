@@ -37,10 +37,14 @@ function printNormalized(league, schedule) {
     for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
         let games = _.filter(schedule, { week: week });
         for (let game of games) {
-            process.stdout.write(league.padEnd(10) + '\t' + week.toString().padEnd(4) + '\t' + game.homeTeam.padEnd(4) + '\t' + (game.awayTeam || '').padEnd(4) + '\t' + game.gym);
+            process.stdout.write(league.padEnd(10) + '\t')
+            process.stdout.write(week.toString().padEnd(4) + '\t');
+            process.stdout.write(game.awayTeam.padEnd(4) + '\t');
+            process.stdout.write(game.homeTeam.padEnd(4) + '\t');
+            process.stdout.write(game.gym + '\t');
             if ('location' in game) {
-                process.stdout.write('\t' + game.location.time.padEnd(5) + '\t' + game.location.name.padEnd(25));
-                // process.stdout.write('\t' + game.location.time.padEnd(5) + '\t' + game.location.name.padEnd(25) + '\t' + game.location.address.padEnd(50) + '\t' + game.location.map.padEnd(20));
+                process.stdout.write(game.location.time.padEnd(5) + '\t')
+                process.stdout.write(game.location.name.padEnd(25))
             }
             console.log();
         }

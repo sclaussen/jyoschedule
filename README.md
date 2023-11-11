@@ -66,3 +66,40 @@ node printLocation master.yaml
 # reads master.yaml files, prints the home/away matrix for all leagues
 node printMatrix master.yaml
 ```
+
+
+
+# Conditional Formatting
+
+K AD
+13
+24
+35
+46
+57
+68
+79
+
+
+
+K3:AD12
+K14:AD23
+K25:AD34
+K36:AD45
+K47:AD56
+K58:AD67
+K69:AD78
+
+AI3:BB12
+AI14:BB23
+AI25:BB34
+AI36:BB45
+AI47:BB56
+AI58:BB67
+AI69:BB78
+
+AI BB
+
+
+K3:AD12,K14:AD23,K25:AD34,K36:AD45,K47:AD56,K58:AD67,K69:AD78,AI3:BB12,AI14:BB23,AI25:BB34,AI36:BB45,AI47:BB56,AI58:BB67,AI69:BB78
+=OR(AND(K3>1, K3<4, ISNUMBER(K3)), AND(K3>4, ISNUMBER(K3)))

@@ -1,3 +1,27 @@
+   g4:j2     b6:j1
+ 1 HH9:30    HH10:40
+ 2 t1        @t1
+ 3 t1        @c
+ 4 HA9:30    HA10:40
+ 6 c         @t2
+ 7 y         @y2
+ 8 HC9:30    HC10:40
+10 HC9:30    HC10:40
+
+  b45:a2 b6:a1
+1        t1
+2 H
+3
+4 j1     j1
+5 c2     c
+6
+7 c3
+8 j2    j2
+
+
+
+
+
 g4:c
         No home weeks: 4
         Notes: nohome4

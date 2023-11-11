@@ -1,5 +1,5 @@
 'use strict'
-// process.env.DEBUG = 'schedule';
+process.env.DEBUG = 'schedule';
 const d = require('debug')('schedule');
 
 const fs = require('fs');
@@ -36,12 +36,13 @@ async function print(args) {
         let currentSlot = { a: 1, c: 1, j: 1, t: 1, y: 1 };
         for (let league of leagues) {
             for (let game of _.filter(master, { league: league, week: week })) {
-                p(game);
-                p(currentSlot[game.gym]);
+                // p(game);
+                // p(currentSlot[game.gym]);
                 let slot = _.find(gymSlots, { week: week, gym: game.gym, slot: currentSlot[game.gym] });
 
                 // TODO: This only exists because we are running invalid schedule sets through here
                 if (!slot) {
+                    console.error('ERROR: the slot associated with the gym was not found: ' + game.gym);
                     continue;
                 }
 

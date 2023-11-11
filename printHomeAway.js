@@ -20,10 +20,10 @@ const leagueFull = require('./lib/util').leagueFull;
 const exit = require('./lib/exit');
 
 
-printMatrix(process.argv);
+printHomeAway(process.argv);
 
 
-async function printMatrix(args) {
+async function printHomeAway(args) {
     let input = args[2];
 
     let info = YAML.parse(fs.readFileSync('./info.yaml', 'utf8'));
@@ -32,12 +32,12 @@ async function printMatrix(args) {
     let master = YAML.parse(fs.readFileSync(input, 'utf8'));
 
     for (let league of leagues) {
-        matrix(league, _.filter(master, { league: league }), info.teams);
+        homeAway(league, _.filter(master, { league: league }), info.teams);
     }
 }
 
 
-function matrix(league, schedule, teams) {
+function homeAway(league, schedule, teams) {
     let teamNames = _.map(_.filter(teams, { league: league }), 'name');
 
     console.log();

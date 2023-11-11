@@ -32,19 +32,19 @@ teams:
     name: j1
     fullname: black
     byeWeeks: [ 5, 9 ]
-    fixedHomeGameWeeks: [ 8, 10 ]
+    fixedHomeGameWeeks: [ 1, 4, 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 7 ]
-    notes: off5and9, double8and10, nohome7
+    notes: cor-g4j2-b6j1, off5and9, double8and10, nohome7
     coaches: alvin lin, newton wong
   - league: g4
     name: j2
     fullname: red
     byeWeeks: [ 5, 9 ]
-    fixedHomeGameWeeks: [ 1, 4, 8, 10 ]
+    fixedHomeGameWeeks: [ 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 7 ]
-    notes: cor-g4j2-b6j1, off5and9, double8and10, nohome7
+    notes: off5and9, double8and10, nohome7
     coaches: phil lee, joseph wong
   - league: g4
     name: y
@@ -359,19 +359,19 @@ teams:
     name: j1
     fullname: black
     byeWeeks: [ 5, 9 ]
-    fixedHomeGameWeeks: [ 1, 4, 8, 10 ]
+    fixedHomeGameWeeks:  [ 8, 10 ]
     fixedAwayGameWeeks: [ ]
     noHomeGymWeeks: [ 7 ]
-    notes: cor-g4j2-b6j1 off5and9, double8and10, nohome7
+    notes: off5and9, double8and10, nohome7
     coaches: mike kato, mike mori, paul leung
   - league: b6
     name: j2
     fullname: red
     byeWeeks: [ 5, 9 ]
-    fixedHomeGameWeeks: [ 8, 10 ]
+    fixedHomeGameWeeks: [ 1, 4, 8, 10 ]
     fixedAwayGameWeeks: []
     noHomeGymWeeks: [ 7 ]
-    notes: off5and9, double8and10, nohome7
+    notes: cor-g4j2-b6j1, off5and9, double8and10, nohome7
     coaches: newton wong, glenn young
   - league: b6
     name: t1
@@ -1106,7 +1106,7 @@ gymSlots:
   - gym: a
     week: 1
     slot: 7
-    time: 4:00pm
+    time: 5:00pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
@@ -1159,35 +1159,35 @@ gymSlots:
     map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
   - gym: j
     week: 1
-    slot: 2
+    slot: 6
     time: 10:40am
     name: Hillsdale High
     address: 3115 Del Monte St, San Mateo, CA 94403
     map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
   - gym: j
     week: 1
-    slot: 3
+    slot: 2
     time: 11:50am
     name: Hillsdale High
     address: 3115 Del Monte St, San Mateo, CA 94403
     map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
   - gym: j
     week: 1
-    slot: 4
+    slot: 3
     time: 1:00pm
     name: Hillsdale High
     address: 3115 Del Monte St, San Mateo, CA 94403
     map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
   - gym: j
     week: 1
-    slot: 5
+    slot: 4
     time: 2:10pm
     name: Hillsdale High
     address: 3115 Del Monte St, San Mateo, CA 94403
     map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
   - gym: j
     week: 1
-    slot: 6
+    slot: 5
     time: 3:20pm
     name: Hillsdale High
     address: 3115 Del Monte St, San Mateo, CA 94403
@@ -1290,14 +1290,14 @@ gymSlots:
     map: https://maps.app.goo.gl/4HLxeEwvUYxkU3hg8
   - gym: y
     week: 1
-    slot: 3
+    slot: 4
     time: 3:20pm
     name: George Washington High
     address: 600 32nd Ave, San Francisco, CA 94121
     map: https://maps.app.goo.gl/4HLxeEwvUYxkU3hg8
   - gym: y
     week: 1
-    slot: 4
+    slot: 3
     time: 4:30pm
     name: George Washington High
     address: 600 32nd Ave, San Francisco, CA 94121
@@ -1321,14 +1321,14 @@ gymSlots:
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
   - gym: a
     week: 2
-    slot: 2
+    slot: 3
     time: 11:10am
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
   - gym: a
     week: 2
-    slot: 3
+    slot: 2
     time: 12:20pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
@@ -1357,7 +1357,7 @@ gymSlots:
   - gym: a
     week: 2
     slot: 7
-    time: 4:00pm
+    time: 5:00pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
@@ -1403,49 +1403,49 @@ gymSlots:
 
   - gym: j
     week: 2
-    slot: 1
+    slot: 3
     time: 9:30am
     name: Hillsdale High
     address: 3115 Del Monte St, San Mateo, CA 94403
     map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
   - gym: j
     week: 2
-    slot: 2
+    slot: 4
     time: 10:40am
     name: Hillsdale High
     address: 3115 Del Monte St, San Mateo, CA 94403
     map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
   - gym: j
     week: 2
-    slot: 3
+    slot: 5
     time: 11:50am
     name: Hillsdale High
     address: 3115 Del Monte St, San Mateo, CA 94403
     map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
   - gym: j
     week: 2
-    slot: 4
+    slot: 6
     time: 1:00pm
     name: Hillsdale High
     address: 3115 Del Monte St, San Mateo, CA 94403
     map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
   - gym: j
     week: 2
-    slot: 5
+    slot: 7
     time: 2:10pm
     name: Hillsdale High
     address: 3115 Del Monte St, San Mateo, CA 94403
     map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
   - gym: j
     week: 2
-    slot: 6
+    slot: 2
     time: 3:20pm
     name: Hillsdale High
     address: 3115 Del Monte St, San Mateo, CA 94403
     map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
   - gym: j
     week: 2
-    slot: 7
+    slot: 1
     time: 4:30pm
     name: Hillsdale High
     address: 3115 Del Monte St, San Mateo, CA 94403
@@ -1468,42 +1468,42 @@ gymSlots:
     map: https://maps.app.goo.gl/tKugf9UutcqDeBvY7
   - gym: t
     week: 2
-    slot: 3
+    slot: 8
     time: 1:20pm
     name: Mountain View High (Main)
     address: 3535 Truman Ave, Mountain View, CA 94040
     map: https://maps.app.goo.gl/dpWV2qqcCZvcum6f7
   - gym: t
     week: 2
-    slot: 4
+    slot: 3
     time: 1:20pm
     name: Mountain View High (Aux)
     address: 3535 Truman Ave, Mountain View, CA 94040
     map: https://maps.app.goo.gl/tKugf9UutcqDeBvY7
+  - gym: t
+    week: 2
+    slot: 4
+    time: 2:30pm
+    name: Mountain View High (Main)
+    address: 3535 Truman Ave, Mountain View, CA 94040
+    map: https://maps.app.goo.gl/dpWV2qqcCZvcum6f7
   - gym: t
     week: 2
     slot: 5
     time: 2:30pm
-    name: Mountain View High (Main)
-    address: 3535 Truman Ave, Mountain View, CA 94040
-    map: https://maps.app.goo.gl/dpWV2qqcCZvcum6f7
-  - gym: t
-    week: 2
-    slot: 6
-    time: 2:30pm
     name: Mountain View High (Aux)
     address: 3535 Truman Ave, Mountain View, CA 94040
     map: https://maps.app.goo.gl/tKugf9UutcqDeBvY7
   - gym: t
     week: 2
-    slot: 7
+    slot: 6
     time: 3:40pm
     name: Mountain View High (Main)
     address: 3535 Truman Ave, Mountain View, CA 94040
     map: https://maps.app.goo.gl/dpWV2qqcCZvcum6f7
   - gym: t
     week: 2
-    slot: 8
+    slot: 7
     time: 3:40pm
     name: Mountain View High (Aux)
     address: 3535 Truman Ave, Mountain View, CA 94040
@@ -1556,10 +1556,10 @@ gymSlots:
   - gym: y
     week: 2
     slot: 5
-    time: 2:10pm
-    name: Hillsdale High
-    address: 3115 Del Monte St, San Mateo, CA 94403
-    map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
+    time: 5:40pm
+    name: George Washington High
+    address: 600 32nd Ave, San Francisco, CA 94121
+    map: https://maps.app.goo.gl/4HLxeEwvUYxkU3hg8
 
 
 
@@ -1586,14 +1586,14 @@ gymSlots:
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
   - gym: a
     week: 3
-    slot: 4
+    slot: 5
     time: 1:30pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
   - gym: a
     week: 3
-    slot: 5
+    slot: 4
     time: 2:40pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
@@ -1608,7 +1608,7 @@ gymSlots:
   - gym: a
     week: 3
     slot: 7
-    time: 4:00pm
+    time: 5:00pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
@@ -1706,28 +1706,28 @@ gymSlots:
 
   - gym: t
     week: 3
-    slot: 1
+    slot: 2
     time: 12:10pm
     name: Mountain View High (Main)
     address: 3535 Truman Ave, Mountain View, CA 94040
     map: https://maps.app.goo.gl/dpWV2qqcCZvcum6f7
   - gym: t
     week: 3
-    slot: 2
+    slot: 3
     time: 1:20pm
     name: Mountain View High (Main)
     address: 3535 Truman Ave, Mountain View, CA 94040
     map: https://maps.app.goo.gl/dpWV2qqcCZvcum6f7
   - gym: t
     week: 3
-    slot: 3
+    slot: 4
     time: 2:30pm
     name: Mountain View High (Main)
     address: 3535 Truman Ave, Mountain View, CA 94040
     map: https://maps.app.goo.gl/dpWV2qqcCZvcum6f7
   - gym: t
     week: 3
-    slot: 4
+    slot: 1
     time: 3:40pm
     name: Mountain View High (Main)
     address: 3535 Truman Ave, Mountain View, CA 94040
@@ -1758,14 +1758,14 @@ gymSlots:
     map: https://maps.app.goo.gl/4HLxeEwvUYxkU3hg8
   - gym: y
     week: 3
-    slot: 3
+    slot: 4
     time: 3:20pm
     name: George Washington High
     address: 600 32nd Ave, San Francisco, CA 94121
     map: https://maps.app.goo.gl/4HLxeEwvUYxkU3hg8
   - gym: y
     week: 3
-    slot: 4
+    slot: 3
     time: 4:30pm
     name: George Washington High
     address: 600 32nd Ave, San Francisco, CA 94121
@@ -1810,14 +1810,14 @@ gymSlots:
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
   - gym: a
     week: 4
-    slot: 5
+    slot: 6
     time: 2:40pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
   - gym: a
     week: 4
-    slot: 6
+    slot: 5
     time: 3:50pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
@@ -1825,7 +1825,7 @@ gymSlots:
   - gym: a
     week: 4
     slot: 7
-    time: 4:00pm
+    time: 5:00pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
@@ -1841,28 +1841,28 @@ gymSlots:
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
   - gym: j
     week: 4
-    slot: 2
+    slot: 5
     time: 10:40am
     name: Aragon High
     address: 900 Alameda de las Pulgas, San Mateo, CA 94402
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
   - gym: j
     week: 4
-    slot: 3
+    slot: 4
     time: 11:50am
     name: Aragon High
     address: 900 Alameda de las Pulgas, San Mateo, CA 94402
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
   - gym: j
     week: 4
-    slot: 4
+    slot: 2
     time: 1:00pm
     name: Aragon High
     address: 900 Alameda de las Pulgas, San Mateo, CA 94402
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
   - gym: j
     week: 4
-    slot: 5
+    slot: 3
     time: 2:10pm
     name: Aragon High
     address: 900 Alameda de las Pulgas, San Mateo, CA 94402
@@ -1983,14 +1983,14 @@ gymSlots:
     map: https://maps.app.goo.gl/ppytZ3k2Jdz5iG1x8
   - gym: c
     week: 5
-    slot: 4
+    slot: 5
     time: 1:20pm
     name: Wilcox High (Aux)
     address: 3250 Monroe St, Santa Clara, CA 95051
     map: https://maps.app.goo.gl/ppytZ3k2Jdz5iG1x8
   - gym: c
     week: 5
-    slot: 5
+    slot: 4
     time: 2:30pm
     name: Wilcox High (Aux)
     address: 3250 Monroe St, Santa Clara, CA 95051
@@ -2104,14 +2104,14 @@ gymSlots:
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
   - gym: a
     week: 6
-    slot: 5
+    slot: 6
     time: 2:40pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
   - gym: a
     week: 6
-    slot: 6
+    slot: 5
     time: 3:50pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
@@ -2119,7 +2119,7 @@ gymSlots:
   - gym: a
     week: 6
     slot: 7
-    time: 4:00pm
+    time: 5:00pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
@@ -2149,14 +2149,14 @@ gymSlots:
     map: https://maps.app.goo.gl/ppytZ3k2Jdz5iG1x8
   - gym: c
     week: 6
-    slot: 4
+    slot: 5
     time: 1:20pm
     name: Wilcox High (Aux)
     address: 3250 Monroe St, Santa Clara, CA 95051
     map: https://maps.app.goo.gl/ppytZ3k2Jdz5iG1x8
   - gym: c
     week: 6
-    slot: 5
+    slot: 4
     time: 2:30pm
     name: Wilcox High (Aux)
     address: 3250 Monroe St, Santa Clara, CA 95051
@@ -2217,21 +2217,21 @@ gymSlots:
 
   - gym: t
     week: 6
-    slot: 1
+    slot: 3
     time: 12:10pm
     name: Mountain View High (Aux)
     address: 3535 Truman Ave, Mountain View, CA 94040
     map: https://maps.app.goo.gl/tKugf9UutcqDeBvY7
   - gym: t
     week: 6
-    slot: 2
+    slot: 1
     time: 1:20pm
     name: Mountain View High (Aux)
     address: 3535 Truman Ave, Mountain View, CA 94040
     map: https://maps.app.goo.gl/tKugf9UutcqDeBvY7
   - gym: t
     week: 6
-    slot: 3
+    slot: 2
     time: 2:30pm
     name: Mountain View High (Aux)
     address: 3535 Truman Ave, Mountain View, CA 94040
@@ -2336,7 +2336,7 @@ gymSlots:
   - gym: a
     week: 7
     slot: 7
-    time: 4:00pm
+    time: 5:00pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
@@ -2403,7 +2403,7 @@ gymSlots:
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
   - gym: j
     week: 7
-    slot: 4
+    slot: 6
     time: 1:00pm
     name: Aragon High
     address: 900 Alameda de las Pulgas, San Mateo, CA 94402
@@ -2417,7 +2417,7 @@ gymSlots:
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
   - gym: j
     week: 7
-    slot: 6
+    slot: 4
     time: 3:20pm
     name: Aragon High
     address: 900 Alameda de las Pulgas, San Mateo, CA 94402
@@ -2478,14 +2478,14 @@ gymSlots:
     map: https://maps.app.goo.gl/4HLxeEwvUYxkU3hg8
   - gym: y
     week: 7
-    slot: 2
+    slot: 3
     time: 2:10pm
     name: George Washington High
     address: 600 32nd Ave, San Francisco, CA 94121
     map: https://maps.app.goo.gl/4HLxeEwvUYxkU3hg8
   - gym: y
     week: 7
-    slot: 3
+    slot: 2
     time: 3:20pm
     name: George Washington High
     address: 600 32nd Ave, San Francisco, CA 94121
@@ -2555,9 +2555,9 @@ gymSlots:
     week: 8
     slot: 2
     time: 9:30am
-    name: TBD
-    address: TBD
-    map: TBD
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
   - gym: j
     week: 8
     slot: 3
@@ -2565,44 +2565,44 @@ gymSlots:
     name: Aragon High
     address: 900 Alameda de las Pulgas, San Mateo, CA 94402
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
-  - gym: j
-    week: 8
-    slot: 4
-    time: 10:40am
-    name: TBD
-    address: TBD
-    map: TBD
-  - gym: j
-    week: 8
-    slot: 5
-    time: 11:50am
-    name: Aragon High
-    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
-    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
-  - gym: j
-    week: 8
-    slot: 6
-    time: 11:50am
-    name: TBD
-    address: TBD
-    map: TBD
-  - gym: j
-    week: 8
-    slot: 7
-    time: 1:00pm
-    name: Aragon High
-    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
-    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
-  - gym: j
-    week: 8
-    slot: 8
-    time: 1:00pm
-    name: TBD
-    address: TBD
-    map: TBD
   - gym: j
     week: 8
     slot: 9
+    time: 10:40am
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
+  - gym: j
+    week: 8
+    slot: 4
+    time: 11:50am
+    name: Aragon High
+    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
+    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
+  - gym: j
+    week: 8
+    slot: 5
+    time: 11:50am
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
+  - gym: j
+    week: 8
+    slot: 7
+    time: 1:00pm
+    name: Aragon High
+    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
+    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
+  - gym: j
+    week: 8
+    slot: 6
+    time: 1:00pm
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
+  - gym: j
+    week: 8
+    slot: 8
     time: 2:10pm
     name: Aragon High
     address: 900 Alameda de las Pulgas, San Mateo, CA 94402
@@ -2611,9 +2611,9 @@ gymSlots:
     week: 8
     slot: 10
     time: 2:10pm
-    name: TBD
-    address: TBD
-    map: TBD
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
   - gym: j
     week: 8
     slot: 11
@@ -2623,14 +2623,14 @@ gymSlots:
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
   - gym: j
     week: 8
-    slot: 12
+    slot: 13
     time: 3:20pm
-    name: TBD
-    address: TBD
-    map: TBD
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
   - gym: j
     week: 8
-    slot: 13
+    slot: 12
     time: 4:30pm
     name: Aragon High
     address: 900 Alameda de las Pulgas, San Mateo, CA 94402
@@ -2639,9 +2639,9 @@ gymSlots:
     week: 8
     slot: 14
     time: 4:30pm
-    name: TBD
-    address: TBD
-    map: TBD
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
 
 
   - gym: t
@@ -2726,7 +2726,7 @@ gymSlots:
     time: 9:50am
     name: Wilcox High (Aux)
     address: 3250 Monroe St, Santa Clara, CA 95051
-    map: 30://maps.app.goo.gl/ppytZ3k2Jdz5iG1x8
+    map: https://maps.app.goo.gl/ppytZ3k2Jdz5iG1x8
   - gym: c
     week: 9
     slot: 2
@@ -2851,14 +2851,14 @@ gymSlots:
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
   - gym: a
     week: 10
-    slot: 3
+    slot: 4
     time: 12:20pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
   - gym: a
     week: 10
-    slot: 4
+    slot: 3
     time: 1:30pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
@@ -2879,12 +2879,12 @@ gymSlots:
     map: 11:50am
   - gym: a
     week: 10
-
-
-    time: 4:00pm
+    time: 5:00pm
     name: JCCC
     address: 1840 Sutter St, San Francisco, CA 94115
     map: 11:50am
+
+
   - gym: c
     week: 10
     slot: 1
@@ -2973,9 +2973,9 @@ gymSlots:
     week: 10
     slot: 2
     time: 9:30am
-    name: TBD
-    address: TBD
-    map: TBD
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
   - gym: j
     week: 10
     slot: 3
@@ -2985,39 +2985,39 @@ gymSlots:
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
   - gym: j
     week: 10
-    slot: 4
+    slot: 8
     time: 10:40am
-    name: TBD
-    address: TBD
-    map: TBD
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
+  - gym: j
+    week: 10
+    slot: 4
+    time: 11:50am
+    name: Aragon High
+    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
+    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
   - gym: j
     week: 10
     slot: 5
     time: 11:50am
-    name: Aragon High
-    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
-    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
   - gym: j
     week: 10
     slot: 6
-    time: 11:50am
-    name: TBD
-    address: TBD
-    map: TBD
+    time: 1:00pm
+    name: Aragon High
+    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
+    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
   - gym: j
     week: 10
     slot: 7
     time: 1:00pm
-    name: Aragon High
-    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
-    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
-  - gym: j
-    week: 10
-    slot: 8
-    time: 1:00pm
-    name: TBD
-    address: TBD
-    map: TBD
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
   - gym: j
     week: 10
     slot: 9
@@ -3027,14 +3027,14 @@ gymSlots:
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
   - gym: j
     week: 10
-    slot: 10
+    slot: 13
     time: 2:10pm
-    name: TBD
-    address: TBD
-    map: TBD
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
   - gym: j
     week: 10
-    slot: 11
+    slot: 10
     time: 3:20pm
     name: Aragon High
     address: 900 Alameda de las Pulgas, San Mateo, CA 94402
@@ -3043,12 +3043,12 @@ gymSlots:
     week: 10
     slot: 12
     time: 3:20pm
-    name: TBD
-    address: TBD
-    map: TBD
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
   - gym: j
     week: 10
-    slot: 13
+    slot: 11
     time: 4:30pm
     name: Aragon High
     address: 900 Alameda de las Pulgas, San Mateo, CA 94402
@@ -3057,9 +3057,9 @@ gymSlots:
     week: 10
     slot: 14
     time: 4:30pm
-    name: TBD
-    address: TBD
-    map: TBD
+    name: Capuchino High (Small)
+    address: 1501 Magnolia Ave, San Bruno, CA 94066
+    map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
 
 
 
