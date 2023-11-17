@@ -43,63 +43,30 @@ node combos 1 5 3 combos.out
 
 # PICK SCHEDULES
 # Picks 7 schedules, one each from <league>.yaml, generates a combined master to pick1.yaml
-node pick 1 2 3 4 5 6 7 pick1.yaml
-
-# PRINT NORMALIZED
-# reads master.yaml, prints the normalized schedule for the spreadsheet
-node printNormalized pick1.yaml
+node pick 1 2 3 4 5 6 7 master.unbound.yaml
 
 # BIND GYMS
-# reads pick1.yaml (master schedule), augments schedule with gyms, writes master.yaml (master schedule with gyms)
+# reads master.unbound.yaml (master schedule), augments schedule with gyms, writes master.yaml (master schedule with gyms)
 # generates master.yaml, contains master schedule for 7 leagues, augmented with gym time/location details
-node bind pick1.yaml master.yaml
+node bind master.unbound.yaml master.bound.yaml
+
+# PRINT NORMALIZED
+# reads master.bound.yaml, prints the normalized schedule for the spreadsheet
+node printNormalized master.unbound.yaml > master.normalized
 
 # PRINT MASTER SCHEDULE
-# reads master.yaml files, prints primary master schedule
-node printMaster master.yaml
+# reads master.bound.yaml files, prints primary master schedule
+node printMaster master.bound.yaml > master.master
 
 # PRINT LOCATION
-# reads master.yaml, prints master schedule by location
-node printLocation master.yaml
+# reads master.bound.yaml, prints master schedule by location
+node printLocation master.bound.yaml > master.location
 
-# PRINT MATRIX
-# reads master.yaml files, prints the home/away matrix for all leagues
-node printMatrix master.yaml
+# PRINT HOME AWAY
+# reads master.bound.yaml files, prints the home/away matrix for all leagues
+node printHomeAway master.bound.yaml > master.homeaway
+
+# PRINT (AND VALIDATE) REQUESTS
+# reads master.bound.yaml files, prints the home/away matrix for all leagues
+node printRequests.js master.bound.yaml
 ```
-
-
-
-# Conditional Formatting
-
-K AD
-13
-24
-35
-46
-57
-68
-79
-
-
-
-K3:AD12
-K14:AD23
-K25:AD34
-K36:AD45
-K47:AD56
-K58:AD67
-K69:AD78
-
-AI3:BB12
-AI14:BB23
-AI25:BB34
-AI36:BB45
-AI47:BB56
-AI58:BB67
-AI69:BB78
-
-AI BB
-
-
-K3:AD12,K14:AD23,K25:AD34,K36:AD45,K47:AD56,K58:AD67,K69:AD78,AI3:BB12,AI14:BB23,AI25:BB34,AI36:BB45,AI47:BB56,AI58:BB67,AI69:BB78
-=OR(AND(K3>1, K3<4, ISNUMBER(K3)), AND(K3>4, ISNUMBER(K3)))
