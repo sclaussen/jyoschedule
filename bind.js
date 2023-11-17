@@ -1,5 +1,5 @@
 'use strict'
-process.env.DEBUG = 'schedule';
+// process.env.DEBUG = 'schedule';
 const d = require('debug')('schedule');
 
 const fs = require('fs');
@@ -16,10 +16,10 @@ const y4 = require('./lib/pr').y4(d);
 const exit = require('./lib/exit');
 
 
-print(process.argv);
+bind(process.argv);
 
 
-async function print(args) {
+async function bind(args) {
 
     let input = args[2];
     let output = args[3];
@@ -42,7 +42,9 @@ async function print(args) {
 
                 // TODO: This only exists because we are running invalid schedule sets through here
                 if (!slot) {
-                    console.error('ERROR: the slot associated with the gym was not found: ' + game.gym);
+                    console.error('ERROR: ' + JSON.stringify(game));
+                    console.error('ERROR: the slot associated with the gym was not found: ' + week + ' ' + game.gym);
+                    console.error();
                     continue;
                 }
 
@@ -63,123 +65,123 @@ async function print(args) {
 }
 
 
-function printMaxGyms() {
-    process.stdout.write(''.padEnd(10));
-    for (let org of _.keys(orgs)) {
-        process.stdout.write(org.padEnd(10));
-    }
-    console.log();
-    process.stdout.write(''.padEnd(10));
-    for (let org of [ 'm/a', 'm/a', 'm/a', 'm/a', 'm/a' ]) {
-        process.stdout.write(org.padEnd(10));
-    }
-    console.log();
+// function printMaxGyms() {
+//     process.stdout.write(''.padEnd(10));
+//     for (let org of _.keys(orgs)) {
+//         process.stdout.write(org.padEnd(10));
+//     }
+//     console.log();
+//     process.stdout.write(''.padEnd(10));
+//     for (let org of [ 'm/a', 'm/a', 'm/a', 'm/a', 'm/a' ]) {
+//         process.stdout.write(org.padEnd(10));
+//     }
+//     console.log();
 
-    for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
-        process.stdout.write(''.padEnd(10));
-        for (let org of _.keys(orgs)) {
-            let gym = _.find(maxgyms, { week: week, name: org });
-            let s = gym.maximum.toString() + '/' + gym.available.toString();
-            process.stdout.write(s.padEnd(10));
-        }
-        console.log();
-    }
-}
-
-
-function printNormalized(league, schedule) {
-    for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
-        let games = _.filter(schedule, { league: league, week: week });
-        for (let game of games) {
-            console.log(league.padEnd(10) + '\t' + week.toString().padEnd(4) + '\t' + game.homeTeam.padEnd(4) + '\t' + (game.awayTeam || '').padEnd(4) + '\t' + game.gym);
-        }
-    }
-}
+//     for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
+//         process.stdout.write(''.padEnd(10));
+//         for (let org of _.keys(orgs)) {
+//             let gym = _.find(maxgyms, { week: week, name: org });
+//             let s = gym.maximum.toString() + '/' + gym.available.toString();
+//             process.stdout.write(s.padEnd(10));
+//         }
+//         console.log();
+//     }
+// }
 
 
-function printHome() {
-    for (let team of _.map(teams, 'name')) {
-        process.stdout.write(team.padEnd(10));
-        for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
-            let games = _.filter(schedule, o => o.league === league && o.week === week && o.homeTeam === team);
-            if (games.length > 0) {
-                process.stdout.write(week.toString().padEnd(9));
-            }
-            else {
-                process.stdout.write('-'.padEnd(9));
-            }
-        }
-        console.log();
-    }
-}
+// function printNormalized(league, schedule) {
+//     for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
+//         let games = _.filter(schedule, { league: league, week: week });
+//         for (let game of games) {
+//             console.log(league.padEnd(10) + '\t' + week.toString().padEnd(4) + '\t' + game.homeTeam.padEnd(4) + '\t' + (game.awayTeam || '').padEnd(4) + '\t' + game.gym);
+//         }
+//     }
+// }
 
 
-function printMatrix() {
-    let teamNames = _.map(teams, 'name');
-
-    process.stdout.write(''.padEnd(10));
-    for (let team of teamNames) {
-        process.stdout.write(team.padEnd(10));
-    }
-    console.log();
-
-    for (let team of teamNames) {
-        process.stdout.write(team.padEnd(10));
-        for (let awayTeam of teamNames) {
-            if (team === awayTeam) {
-                process.stdout.write('-'.padEnd(10));
-            }
-            let count = _.filter(schedule, { league: league, homeTeam: team, awayTeam: awayTeam }).length;
-            switch (count) {
-            case 0:
-                process.stdout.write(''.toString().padEnd(10));
-                break;
-            case 1:
-                process.stdout.write(count.toString().padEnd(10));
-                break;
-            case 2:
-                process.stdout.write(count.toString().padEnd(10));
-                break;
-            }
-        }
-        console.log();
-    }
-}
+// function printHome() {
+//     for (let team of _.map(teams, 'name')) {
+//         process.stdout.write(team.padEnd(10));
+//         for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
+//             let games = _.filter(schedule, o => o.league === league && o.week === week && o.homeTeam === team);
+//             if (games.length > 0) {
+//                 process.stdout.write(week.toString().padEnd(9));
+//             }
+//             else {
+//                 process.stdout.write('-'.padEnd(9));
+//             }
+//         }
+//         console.log();
+//     }
+// }
 
 
-function printStats() {
-    for (let team of _.map(teams, 'name')) {
-        process.stdout.write(team.padEnd(10));
-        for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
-            let games = _.filter(schedule, o => o.league === league && o.week ===  week && (o.homeTeam === team || o.awayTeam === team));
-            if (games.length > 0) {
-                for (let game of games) {
-                    if (game.homeTeam === team) {
-                        process.stdout.write(game.awayTeam.padEnd(9));
-                    } else {
-                        process.stdout.write(game.homeTeam.padEnd(3) + '(A)   ');
-                    }
-                }
-            }
-            else {
-                process.stdout.write('-'.padEnd(9));
-            }
-        }
-        console.log();
-    }
-}
+// function printMatrix() {
+//     let teamNames = _.map(teams, 'name');
+
+//     process.stdout.write(''.padEnd(10));
+//     for (let team of teamNames) {
+//         process.stdout.write(team.padEnd(10));
+//     }
+//     console.log();
+
+//     for (let team of teamNames) {
+//         process.stdout.write(team.padEnd(10));
+//         for (let awayTeam of teamNames) {
+//             if (team === awayTeam) {
+//                 process.stdout.write('-'.padEnd(10));
+//             }
+//             let count = _.filter(schedule, { league: league, homeTeam: team, awayTeam: awayTeam }).length;
+//             switch (count) {
+//             case 0:
+//                 process.stdout.write(''.toString().padEnd(10));
+//                 break;
+//             case 1:
+//                 process.stdout.write(count.toString().padEnd(10));
+//                 break;
+//             case 2:
+//                 process.stdout.write(count.toString().padEnd(10));
+//                 break;
+//             }
+//         }
+//         console.log();
+//     }
+// }
+
+
+// function printStats() {
+//     for (let team of _.map(teams, 'name')) {
+//         process.stdout.write(team.padEnd(10));
+//         for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
+//             let games = _.filter(schedule, o => o.league === league && o.week ===  week && (o.homeTeam === team || o.awayTeam === team));
+//             if (games.length > 0) {
+//                 for (let game of games) {
+//                     if (game.homeTeam === team) {
+//                         process.stdout.write(game.awayTeam.padEnd(9));
+//                     } else {
+//                         process.stdout.write(game.homeTeam.padEnd(3) + '(A)   ');
+//                     }
+//                 }
+//             }
+//             else {
+//                 process.stdout.write('-'.padEnd(9));
+//             }
+//         }
+//         console.log();
+//     }
+// }
 
 
 
-function validSchedule(schedule, league, teams) {
-    let teamNames = _.map(teams, 'name');
-    for (let homeTeam of teamNames) {
-        for (let awayTeam of teamNames) {
-            let dups = _.filter(schedule, { league: league, homeTeam: homeTeam, awayTeam: awayTeam }).length;
-            if (dups > maxDups) {
-                return false;
-            }
-        }
-    }
-    return true;
-}
+// function validSchedule(schedule, league, teams) {
+//     let teamNames = _.map(teams, 'name');
+//     for (let homeTeam of teamNames) {
+//         for (let awayTeam of teamNames) {
+//             let dups = _.filter(schedule, { league: league, homeTeam: homeTeam, awayTeam: awayTeam }).length;
+//             if (dups > maxDups) {
+//                 return false;
+//             }
+//         }
+//     }
+//     return true;
+// }

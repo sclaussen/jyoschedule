@@ -43,12 +43,12 @@ function homeAway(league, schedule, teams) {
     console.log();
     process.stdout.write(leagueFull(league).padEnd(23) + '\t');
     for (let team of teamNames) {
-        process.stdout.write(teamFull(_.find(teams, { name: team }), team).padEnd(12) + '\t');
+        process.stdout.write(teamFull(_.find(teams, { league: league, name: team }), team).padEnd(12) + '\t');
     }
     console.log();
 
     for (let team of teamNames) {
-        process.stdout.write(teamFull(_.find(teams, { name: team }), team).padEnd(23) + '\t');
+        process.stdout.write(teamFull(_.find(teams, { league: league, name: team }), team).padEnd(23) + '\t');
         for (let awayTeam of teamNames) {
             p(awayTeam);
             if (team === awayTeam) {

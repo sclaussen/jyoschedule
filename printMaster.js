@@ -57,11 +57,8 @@ function printMaster(master, leagues, teams) {
 
     for (let league of leagues) {
         let schedule = _.filter(master, { league: league });
-        p4(schedule);
 
         for (let team of _.map(_.filter(teams, { league: league }), 'name')) {
-            p('team', team);
-
             // Line 1
             process.stdout.write(leagueFull(league).padEnd(30) + '\t');
             for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
@@ -72,16 +69,16 @@ function printMaster(master, leagues, teams) {
                 }
 
                 if (game.homeTeam === team) {
-                    process.stdout.write((game.location.time + ' vs. ' + teamFull(_.find(teams, { name: game.awayTeam })) + ' (Home)').padEnd(30) + '\t');
+                    process.stdout.write((game.location.time + ' vs. ' + teamFull(_.find(teams, { league: league, name: game.awayTeam })) + ' (Home)').padEnd(30) + '\t');
                 } else {
-                    process.stdout.write((game.location.time + ' @ ' + teamFull(_.find(teams, { name: game.homeTeam })) + ' (Away)').padEnd(30) + '\t');
+                    process.stdout.write((game.location.time + ' @ ' + teamFull(_.find(teams, { league: league, name: game.homeTeam })) + ' (Away)').padEnd(30) + '\t');
                 }
             }
             console.log();
 
 
             // Line 2
-            process.stdout.write(teamFull(_.find(teams, { name: team })).padEnd(30) + '\t');
+            process.stdout.write(teamFull(_.find(teams, { league: league, name: team })).padEnd(30) + '\t');
             for (let week of [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]) {
                 let games = _.filter(schedule, o => o.week ===  week && (o.homeTeam === team || o.awayTeam === team));
                 if (games.length === 0) {
@@ -93,7 +90,6 @@ function printMaster(master, leagues, teams) {
                     process.exit(1);
                 }
                 let game = games[0];
-                // process.stdout.write(game.location.name.padEnd(30) + '\t');
                 process.stdout.write(('=hyperlink("' + game.location.map + '", "' + game.location.name + '")').padEnd(30) + '\t');
             }
             console.log();

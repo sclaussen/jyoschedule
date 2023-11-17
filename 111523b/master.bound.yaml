@@ -259,7 +259,7 @@
   slot: 3
   location:
     name: George Washington High
-    time: 3:20pm
+    time: 4:30pm
     address: 600 32nd Ave, San Francisco, CA 94121
     map: https://maps.app.goo.gl/4HLxeEwvUYxkU3hg8
 - league: b7
@@ -270,7 +270,7 @@
   slot: 4
   location:
     name: George Washington High
-    time: 4:30pm
+    time: 3:20pm
     address: 600 32nd Ave, San Francisco, CA 94121
     map: https://maps.app.goo.gl/4HLxeEwvUYxkU3hg8
 - league: b45
@@ -308,7 +308,7 @@
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
 - league: b7
   week: 2
-  awayTeam: y2
+  awayTeam: y1
   homeTeam: a
   gym: a
   slot: 4
@@ -385,7 +385,7 @@
     map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
 - league: b7
   week: 2
-  awayTeam: y1
+  awayTeam: y2
   homeTeam: j1
   gym: j
   slot: 3
@@ -418,7 +418,7 @@
     map: https://maps.app.goo.gl/tKugf9UutcqDeBvY7
 - league: g56
   week: 2
-  awayTeam: c
+  awayTeam: j1
   homeTeam: t2
   gym: t
   slot: 3
@@ -429,7 +429,7 @@
     map: https://maps.app.goo.gl/tKugf9UutcqDeBvY7
 - league: g56
   week: 2
-  awayTeam: j1
+  awayTeam: j2
   homeTeam: t3
   gym: t
   slot: 4
@@ -506,7 +506,7 @@
     map: https://maps.app.goo.gl/dpWV2qqcCZvcum6f7
 - league: g56
   week: 2
-  awayTeam: j2
+  awayTeam: c
   homeTeam: y
   gym: y
   slot: 1
@@ -754,7 +754,7 @@
   slot: 3
   location:
     name: Mountain View High (Main)
-    time: 3:40pm
+    time: 2:30pm
     address: 3535 Truman Ave, Mountain View, CA 94040
     map: https://maps.app.goo.gl/dpWV2qqcCZvcum6f7
 - league: b45
@@ -765,18 +765,18 @@
   slot: 4
   location:
     name: Mountain View High (Main)
-    time: 4:50pm
+    time: 3:40pm
     address: 3535 Truman Ave, Mountain View, CA 94040
     map: https://maps.app.goo.gl/dpWV2qqcCZvcum6f7
 - league: b7
   week: 3
-  awayTeam: j1
+  awayTeam: j2
   homeTeam: t
   gym: t
   slot: 5
   location:
     name: Mountain View High (Main)
-    time: 2:30pm
+    time: 4:50pm
     address: 3535 Truman Ave, Mountain View, CA 94040
     map: https://maps.app.goo.gl/dpWV2qqcCZvcum6f7
 - league: g56
@@ -814,7 +814,7 @@
     map: https://maps.app.goo.gl/4HLxeEwvUYxkU3hg8
 - league: b7
   week: 3
-  awayTeam: j2
+  awayTeam: j1
   homeTeam: y1
   gym: y
   slot: 4
@@ -836,7 +836,7 @@
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
 - league: g56
   week: 4
-  awayTeam: y
+  awayTeam: j2
   homeTeam: a2
   gym: a
   slot: 2
@@ -847,7 +847,7 @@
     map: https://maps.app.goo.gl/UeeBcB7iGQUw6gxY9
 - league: g789
   week: 4
-  awayTeam: y
+  awayTeam: t1
   homeTeam: a
   gym: a
   slot: 3
@@ -924,7 +924,7 @@
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
 - league: g789
   week: 4
-  awayTeam: c
+  awayTeam: y
   homeTeam: j
   gym: j
   slot: 3
@@ -979,7 +979,7 @@
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
 - league: g56
   week: 4
-  awayTeam: j2
+  awayTeam: y
   homeTeam: t1
   gym: t
   slot: 1
@@ -990,7 +990,7 @@
     map: https://maps.app.goo.gl/tKugf9UutcqDeBvY7
 - league: g789
   week: 4
-  awayTeam: t1
+  awayTeam: c
   homeTeam: t2
   gym: t
   slot: 2
@@ -1012,7 +1012,7 @@
     map: https://maps.app.goo.gl/tKugf9UutcqDeBvY7
 - league: b7
   week: 4
-  awayTeam: j2
+  awayTeam: c
   homeTeam: t
   gym: t
   slot: 4
@@ -1078,7 +1078,7 @@
     map: https://maps.app.goo.gl/4HLxeEwvUYxkU3hg8
 - league: b7
   week: 4
-  awayTeam: c
+  awayTeam: j2
   homeTeam: y1
   gym: y
   slot: 5
@@ -1551,7 +1551,7 @@
     map: https://maps.app.goo.gl/4HLxeEwvUYxkU3hg8
 - league: g56
   week: 7
-  awayTeam: c
+  awayTeam: y
   homeTeam: a2
   gym: a
   slot: 1
@@ -1694,7 +1694,7 @@
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
 - league: b7
   week: 7
-  awayTeam: a
+  awayTeam: c
   homeTeam: j1
   gym: j
   slot: 4
@@ -1705,7 +1705,7 @@
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
 - league: b7
   week: 7
-  awayTeam: c
+  awayTeam: y2
   homeTeam: j2
   gym: j
   slot: 5
@@ -1749,7 +1749,7 @@
     map: https://maps.app.goo.gl/tKugf9UutcqDeBvY7
 - league: g56
   week: 7
-  awayTeam: y
+  awayTeam: c
   homeTeam: t1
   gym: t
   slot: 2
@@ -1782,7 +1782,7 @@
     map: https://maps.app.goo.gl/tKugf9UutcqDeBvY7
 - league: b7
   week: 7
-  awayTeam: y2
+  awayTeam: a
   homeTeam: t
   gym: t
   slot: 5
@@ -1903,7 +1903,7 @@
     map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
 - league: g56
   week: 8
-  awayTeam: y
+  awayTeam: t3
   homeTeam: j1
   gym: j
   slot: 3
@@ -1914,7 +1914,7 @@
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
 - league: g56
   week: 8
-  awayTeam: t3
+  awayTeam: y
   homeTeam: j2
   gym: j
   slot: 4
@@ -2409,7 +2409,7 @@
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
 - league: g56
   week: 10
-  awayTeam: c
+  awayTeam: t3
   homeTeam: j2
   gym: j
   slot: 4
@@ -2486,7 +2486,7 @@
     map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
 - league: b7
   week: 10
-  awayTeam: y2
+  awayTeam: a
   homeTeam: j2
   gym: j
   slot: 11
@@ -2552,7 +2552,7 @@
     map: https://maps.app.goo.gl/tKugf9UutcqDeBvY7
 - league: g56
   week: 10
-  awayTeam: t3
+  awayTeam: c
   homeTeam: y
   gym: y
   slot: 1
@@ -2574,7 +2574,7 @@
     map: https://maps.app.goo.gl/4HLxeEwvUYxkU3hg8
 - league: b7
   week: 10
-  awayTeam: a
+  awayTeam: y2
   homeTeam: y1
   gym: y
   slot: 3

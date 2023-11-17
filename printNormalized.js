@@ -41,7 +41,7 @@ function printNormalized(league, schedule) {
             process.stdout.write(week.toString().padEnd(4) + '\t');
             process.stdout.write(game.awayTeam.padEnd(4) + '\t');
             process.stdout.write(game.homeTeam.padEnd(4) + '\t');
-            process.stdout.write(game.gym + '\t');
+            process.stdout.write('=LEFT(INDIRECT(ADDRESS(ROW(), COLUMN()-1)))\t');
             if ('location' in game) {
                 process.stdout.write(game.location.time.padEnd(5) + '\t')
                 process.stdout.write(game.location.name.padEnd(25))

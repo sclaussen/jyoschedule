@@ -53,8 +53,8 @@ function generateLocation(master, leagues, teams) {
         for (let gym of _.uniq(_.map(_.filter(master, { week: week }), 'gym'))) {
             let games = _.orderBy(_.filter(master, { week: week, gym: gym }), [ 'location.name' ], [ 'asc' ]);
             for (let game of games) {
-                let homeTeam = _.find(teams, { name: game.homeTeam });
-                let awayTeam = _.find(teams, { name: game.awayTeam });
+                let homeTeam = _.find(teams, { league: game.league, name: game.homeTeam });
+                let awayTeam = _.find(teams, { league: game.league, name: game.awayTeam });
                 process.stdout.write(weekToDate(week).padEnd(8) + '\t');
                 process.stdout.write('Week ' + game.week.toString().padEnd(7) + '\t');
                 process.stdout.write(orgFull(game.gym) + '\t');
