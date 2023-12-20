@@ -907,10 +907,10 @@
   gym: j
   slot: 1
   location:
-    name: Aragon High
+    name: Hillsdale
     time: 9:30am
-    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
-    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
+    address: 3115 Del Monte St, San Mateo, CA 94403
+    map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
 - league: g4
   week: 4
   awayTeam: c
@@ -918,10 +918,10 @@
   gym: j
   slot: 2
   location:
-    name: Aragon High
+    name: Hillsdale
     time: 1:00pm
-    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
-    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
+    address: 3115 Del Monte St, San Mateo, CA 94403
+    map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
 - league: g789
   week: 4
   awayTeam: c
@@ -929,10 +929,10 @@
   gym: j
   slot: 3
   location:
-    name: Aragon High
+    name: Hillsdale
     time: 2:10pm
-    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
-    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
+    address: 3115 Del Monte St, San Mateo, CA 94403
+    map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
 - league: b45
   week: 4
   awayTeam: a2
@@ -940,10 +940,10 @@
   gym: j
   slot: 4
   location:
-    name: Aragon High
+    name: Hillsdale
     time: 11:50am
-    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
-    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
+    address: 3115 Del Monte St, San Mateo, CA 94403
+    map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
 - league: b6
   week: 4
   awayTeam: a1
@@ -951,10 +951,10 @@
   gym: j
   slot: 5
   location:
-    name: Aragon High
+    name: Hillsdale
     time: 10:40am
-    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
-    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
+    address: 3115 Del Monte St, San Mateo, CA 94403
+    map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
 - league: b6
   week: 4
   awayTeam: y1
@@ -962,10 +962,10 @@
   gym: j
   slot: 6
   location:
-    name: Aragon High
+    name: Hillsdale
     time: 3:20pm
-    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
-    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
+    address: 3115 Del Monte St, San Mateo, CA 94403
+    map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
 - league: b89
   week: 4
   awayTeam: t1
@@ -973,10 +973,10 @@
   gym: j
   slot: 7
   location:
-    name: Aragon High
+    name: Hillsdale
     time: 4:30pm
-    address: 900 Alameda de las Pulgas, San Mateo, CA 94402
-    map: https://maps.app.goo.gl/Z2X5CVy2ZyGwfdpp9
+    address: 3115 Del Monte St, San Mateo, CA 94403
+    map: https://maps.app.goo.gl/1txjgHrVrvmZLbnT6
 - league: g56
   week: 4
   awayTeam: j2
@@ -1897,7 +1897,7 @@
   gym: j
   slot: 2
   location:
-    name: Capuchino High (Small)
+    name: Capuchino High (Main)
     time: 9:30am
     address: 1501 Magnolia Ave, San Bruno, CA 94066
     map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
@@ -1930,7 +1930,7 @@
   gym: j
   slot: 5
   location:
-    name: Capuchino High (Small)
+    name: Capuchino High (Main)
     time: 11:50am
     address: 1501 Magnolia Ave, San Bruno, CA 94066
     map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
@@ -1941,7 +1941,7 @@
   gym: j
   slot: 6
   location:
-    name: Capuchino High (Small)
+    name: Capuchino High (Main)
     time: 1:00pm
     address: 1501 Magnolia Ave, San Bruno, CA 94066
     map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
@@ -1974,7 +1974,7 @@
   gym: j
   slot: 9
   location:
-    name: Capuchino High (Small)
+    name: Capuchino High (Main)
     time: 10:40am
     address: 1501 Magnolia Ave, San Bruno, CA 94066
     map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
@@ -1985,7 +1985,7 @@
   gym: j
   slot: 10
   location:
-    name: Capuchino High (Small)
+    name: Capuchino High (Main)
     time: 2:10pm
     address: 1501 Magnolia Ave, San Bruno, CA 94066
     map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
@@ -2018,7 +2018,7 @@
   gym: j
   slot: 13
   location:
-    name: Capuchino High (Small)
+    name: Capuchino High (Main)
     time: 3:20pm
     address: 1501 Magnolia Ave, San Bruno, CA 94066
     map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
@@ -2029,7 +2029,7 @@
   gym: j
   slot: 14
   location:
-    name: Capuchino High (Small)
+    name: Capuchino High (Main)
     time: 4:30pm
     address: 1501 Magnolia Ave, San Bruno, CA 94066
     map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
@@ -2392,7 +2392,7 @@
   gym: j
   slot: 2
   location:
-    name: Capuchino High (Small)
+    name: Capuchino High (Main)
     time: 9:30am
     address: 1501 Magnolia Ave, San Bruno, CA 94066
     map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
@@ -2425,7 +2425,7 @@
   gym: j
   slot: 5
   location:
-    name: Capuchino High (Small)
+    name: Capuchino High (Main)
     time: 11:50am
     address: 1501 Magnolia Ave, San Bruno, CA 94066
     map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
@@ -2447,7 +2447,7 @@
   gym: j
   slot: 7
   location:
-    name: Capuchino High (Small)
+    name: Capuchino High (Main)
     time: 1:00pm
     address: 1501 Magnolia Ave, San Bruno, CA 94066
     map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
@@ -2458,7 +2458,7 @@
   gym: j
   slot: 8
   location:
-    name: Capuchino High (Small)
+    name: Capuchino High (Main)
     time: 10:40am
     address: 1501 Magnolia Ave, San Bruno, CA 94066
     map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7
@@ -2502,7 +2502,7 @@
   gym: j
   slot: 12
   location:
-    name: Capuchino High (Small)
+    name: Capuchino High (Main)
     time: 2:10pm
     address: 1501 Magnolia Ave, San Bruno, CA 94066
     map: https://maps.app.goo.gl/My4oqmoX2NfwBavr7

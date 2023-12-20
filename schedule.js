@@ -94,11 +94,6 @@ function generateSchedules(l) {
 
 
     // Precompute a couple items
-    for (let team of teams) {
-        team.opponents = _.filter(teams, o => o.name !== team.name && o.name[0] !== team.name[0]);
-        team.viableHomeWeeks = _.difference([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ], team.byeWeeks, team.noHomeGymWeeks);
-        team.viableAwayWeeks = _.difference([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ], team.byeWeeks);
-    }
 
     let totalScheduleCount = 0;
     idealScheduleCount = 0;
